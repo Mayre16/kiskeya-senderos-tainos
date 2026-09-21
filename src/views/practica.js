@@ -9,9 +9,10 @@ import {
   markPalabra,
   setNombrePropio,
 } from "../app/store.js";
-import { featuredSvg, iconSvg, FEATURED } from "../components/svg/index.js";
+import { iconSvg } from "../components/svg/index.js";
 import {
   byId,
+  chunk,
   escapeHtml,
   FUENTE_CLASS,
   FUENTE_LABEL,
@@ -21,7 +22,7 @@ import {
   normalizeText,
   parsePresentacion,
   samePhrase,
-  sameWord,
+  shortGlosa,
   shuffle,
 } from "../app/helpers.js";
 import { playWord } from "../app/speech.js";
@@ -31,8 +32,9 @@ import { navigate } from "../app/router.js";
 let session = null;
 
 const STEP_LABEL = {
-  meaning: "Significado",
-  write: "Escribe",
+  match: "Empareja",
+  leer: "Lee la frase",
+  write: "Escribe la frase",
   build: "Arma la frase",
   presentar: "Preséntate",
   aplicar: "Usar",
@@ -43,12 +45,38 @@ function wordById(id) {
   return byId(glossary, id);
 }
 
+function leerOpciones(word, lessonWords) {
+  const uso = usos[word.id];
+  const correcta = uso?.es || word.traduccion_es;
+  const pool = lessonWords
+    .filter((item) => item.id !== word.id)
+    .map((item) => usos[item.id]?.es || item.traduccion_es)
+    .filter((text) => text && normalizeText(text) !== normalizeText(correcta));
+  const extra = glossary
+    .filter((item) => item.id !== word.id)
+    .map((item) => usos[item.id]?.es || shortGlosa(item))
+    .filter((text) => text && normalizeText(text) !== normalizeText(correcta));
+  const distractores = shuffle([...new Set([...pool, ...extra])]).slice(0, 2);
+  return shuffle([
+    { texto: correcta, correcta: true, asset: word.asset_visual },
+    ...distractores.map((texto, i) => ({
+      texto,
+      correcta: false,
+      asset: lessonWords[i + 1]?.asset_visual || "tau",
+    })),
+  ]);
+}
+
 function buildSteps(words, lessonId) {
   const steps = [];
-  for (const word of words) steps.push({ type: "meaning", wordId: word.id });
+  for (const group of chunk(words, 5)) {
+    steps.push({ type: "match", wordIds: group.map((word) => word.id) });
+  }
   for (const word of words) {
+    if (!usos[word.id]) continue;
+    steps.push({ type: "leer", wordId: word.id });
+    steps.push({ type: "build", wordId: word.id });
     steps.push({ type: "write", wordId: word.id });
-    if (usos[word.id]) steps.push({ type: "build", wordId: word.id });
   }
   for (const app of aplicaciones[lessonId] || []) {
     steps.push({ type: app.tipo, app });
@@ -60,9 +88,20 @@ function prepareStep(step) {
   session.feedback = null;
   session.draft = "";
   session.picked = [];
-  if (step.type === "meaning") {
-    const word = wordById(step.wordId);
-    session.options = shuffle(word.opciones);
+  session.pickLeft = null;
+  session.pickRight = null;
+  session.mismatch = null;
+  if (step.type === "match") {
+    const pairs = step.wordIds.map((id) => {
+      const word = wordById(id);
+      return { id, taino: word.palabra_taino, es: shortGlosa(word), asset: word.asset_visual };
+    });
+    session.matchLeft = shuffle(pairs);
+    session.matchRight = shuffle(pairs.map((pair) => ({ id: pair.id, es: pair.es, asset: pair.asset })));
+    session.matched = [];
+  }
+  if (step.type === "leer") {
+    session.options = leerOpciones(wordById(step.wordId), session.words);
   }
   if (step.type === "build") {
     const uso = usos[step.wordId];
@@ -101,13 +140,6 @@ function currentWord() {
   return wordById(step.wordId);
 }
 
-function illustrationFor(word) {
-  if (!word) return "";
-  return FEATURED.has(word.asset_visual)
-    ? featuredSvg(word.asset_visual, { size: 200, stage: 4 })
-    : `<div class="grid place-items-center">${iconSvg(word.asset_visual, 120)}</div>`;
-}
-
 function nextLabel() {
   return session.index < session.steps.length - 1 ? "Siguiente" : "Píldora de sabiduría";
 }
@@ -116,12 +148,56 @@ function finishFeedback(ok, extra = {}) {
   const step = currentStep();
   const word = currentWord();
   if (word) markPalabra(word.id);
-  if (ok) addGotas(step.type === "presentar" ? 2 : 1);
+  if (ok) addGotas(step.type === "presentar" || step.type === "match" ? 2 : 1);
   session.feedback = { ok, ...extra };
   navigate(`/practica/${session.trailId}/${session.lessonN}`, { replace: true });
 }
 
-function renderMeaning(word) {
+function matchButtonClass(side, id) {
+  const matched = session.matched.includes(id);
+  const picked = side === "left" ? session.pickLeft === id : session.pickRight === id;
+  const bad = session.mismatch && (session.mismatch.left === id || session.mismatch.right === id);
+  if (matched) return "border-palma bg-palma/10 text-palma";
+  if (bad) return "border-terracota bg-terracota/10";
+  if (picked) return "border-cenote bg-cenote/10";
+  return "border-arena-3 bg-white/80 hover:border-cenote/50";
+}
+
+function renderMatch() {
+  const left = session.matchLeft
+    .map(
+      (pair) => `
+        <button type="button" data-match-left="${escapeHtml(pair.id)}" class="card-stone min-h-14 border-2 px-3 py-2 text-left font-display text-lg ${matchButtonClass("left", pair.id)}" ${session.feedback || session.matched.includes(pair.id) ? "disabled" : ""}>
+          ${escapeHtml(pair.taino)}
+        </button>`,
+    )
+    .join("");
+  const right = session.matchRight
+    .map(
+      (pair) => `
+        <button type="button" data-match-right="${escapeHtml(pair.id)}" class="card-stone flex min-h-14 items-center gap-2 border-2 px-3 py-2 text-left text-sm ${matchButtonClass("right", pair.id)}" ${session.feedback || session.matched.includes(pair.id) ? "disabled" : ""}>
+          <span class="grid h-9 w-9 shrink-0 place-items-center rounded-xl bg-arena-2">${iconSvg(pair.asset, 32)}</span>
+          <span>${escapeHtml(pair.es)}</span>
+        </button>`,
+    )
+    .join("");
+
+  return `
+    <article class="card-stone p-5">
+      <p class="text-center text-[11px] font-semibold uppercase tracking-[0.18em] text-cenote">Empareja</p>
+      <h1 class="mt-2 text-center font-display text-2xl font-semibold">Une cada voz con su significado</h1>
+      <p class="mt-2 text-center text-sm text-caoba-clara">Toca una palabra taína y luego su glosa.</p>
+    </article>
+    <div class="mt-4 grid grid-cols-2 gap-3">
+      <div class="grid gap-2 content-start">${left}</div>
+      <div class="grid gap-2 content-start">${right}</div>
+    </div>
+  `;
+}
+
+function renderLeer(word) {
+  const uso = usos[word.id];
+  const frase = uso?.modelo || word.palabra_taino;
   const options = session.options
     .map((opt, i) => {
       let extra = "border-arena-3 bg-white/80 hover:border-cenote/50";
@@ -139,27 +215,20 @@ function renderMeaning(word) {
     })
     .join("");
 
-  const uso = usos[word.id];
   return `
     <article class="card-stone ${session.feedback?.ok ? "feedback-ok border-2 border-palma" : session.feedback && !session.feedback.ok ? "border-2 border-terracota" : ""} p-5">
-      <div class="grid place-items-center">${illustrationFor(word)}</div>
+      <p class="text-center text-[11px] font-semibold uppercase tracking-[0.18em] text-terracota">Lee la frase</p>
       <p class="mt-2 text-center"><span class="source-pill ${FUENTE_CLASS[word.fuente_tipo]}">${FUENTE_LABEL[word.fuente_tipo]}</span></p>
-      <h1 class="mt-2 text-center font-display text-5xl font-semibold tracking-wide text-caoba">${escapeHtml(word.palabra_taino)}</h1>
-      <p class="mt-1 text-center text-sm text-cenote">${escapeHtml(word.fonetica_intuitiva)} · <span class="text-caoba-clara">/${escapeHtml(word.fonetica_ipa)}/</span></p>
-      <p class="mt-2 text-center text-xs uppercase tracking-wide text-caoba-clara">${escapeHtml(word.clase_gramatical)}</p>
+      <h1 class="mt-3 text-center font-display text-4xl font-semibold tracking-wide text-caoba">${escapeHtml(frase)}</h1>
+      ${normalizeText(frase) === normalizeText(word.palabra_taino) ? `<p class="mt-2 text-center text-sm text-cenote">${escapeHtml(word.fonetica_intuitiva)}</p>` : ""}
       <p id="voice-source" class="mt-2 text-center text-[11px] font-semibold uppercase tracking-wide text-caoba-clara">Voz en español</p>
       <div class="mt-3 flex justify-center gap-2">
-        <button type="button" id="btn-speak" class="btn-primary">Escuchar</button>
+        <button type="button" id="btn-speak" class="btn-primary">Oír la frase</button>
         <button type="button" id="btn-rec" class="btn-ghost">Grabar</button>
       </div>
     </article>
-    <div class="mt-5 grid gap-3">${options}</div>
-    ${
-      session.feedback && uso
-        ? `<p class="mt-4 text-center font-display text-xl text-caoba">${escapeHtml(uso.modelo)}</p>
-           <p class="text-center text-sm text-caoba-clara">${escapeHtml(uso.es)}</p>`
-        : ""
-    }
+    <p class="mt-4 text-center text-sm text-caoba-clara">¿Qué dice?</p>
+    <div class="mt-3 grid gap-3">${options}</div>
   `;
 }
 
@@ -167,12 +236,12 @@ function renderWrite(word) {
   const uso = usos[word.id];
   return `
     <article class="card-stone ${session.feedback?.ok ? "feedback-ok border-2 border-palma" : session.feedback && !session.feedback.ok ? "border-2 border-terracota" : ""} p-5">
-      <p class="text-center text-[11px] font-semibold uppercase tracking-[0.18em] text-terracota">Escribe la palabra</p>
-      <h1 class="mt-2 text-center font-display text-2xl font-semibold">${escapeHtml(uso?.pista || word.traduccion_es)}</h1>
-      <p class="mt-2 text-center text-sm text-caoba-clara">${escapeHtml(uso?.es || word.traduccion_es)}</p>
+      <p class="text-center text-[11px] font-semibold uppercase tracking-[0.18em] text-terracota">Escribe la frase</p>
+      <h1 class="mt-2 text-center font-display text-2xl font-semibold">${escapeHtml(uso?.es || word.traduccion_es)}</h1>
+      <p class="mt-2 text-center text-sm text-caoba-clara">${uso?.tokens?.length > 1 ? "Escríbela en taíno, con todas las voces de la frase." : "Escríbela en taíno."}</p>
       <form id="form-write" class="mt-5 space-y-3">
-        <label class="sr-only" for="input-write">Palabra taína</label>
-        <input id="input-write" class="field-write" name="respuesta" autocomplete="off" spellcheck="false" autocapitalize="words" inputmode="text" placeholder="Escríbela aquí" value="${escapeHtml(session.draft)}" ${session.feedback ? "disabled" : ""} />
+        <label class="sr-only" for="input-write">Frase taína</label>
+        <input id="input-write" class="field-write" name="respuesta" autocomplete="off" spellcheck="false" autocapitalize="words" inputmode="text" placeholder="Escríbela en taíno" value="${escapeHtml(session.draft)}" ${session.feedback ? "disabled" : ""} />
         ${session.feedback ? "" : `<button type="submit" class="btn-primary w-full">Comprobar</button>`}
       </form>
     </article>
@@ -215,9 +284,13 @@ function renderAplicar(app) {
       <p class="text-center text-[11px] font-semibold uppercase tracking-[0.18em] text-terracota">Aplicación práctica</p>
       <h1 class="mt-2 text-center font-display text-2xl font-semibold">${escapeHtml(app.titulo)}</h1>
       <p class="mt-3 text-sm leading-relaxed text-caoba">${escapeHtml(app.prompt)}</p>
-      <p class="mt-2 text-center font-display text-xl text-cenote">${escapeHtml(app.modelo)}</p>
       <p class="mt-1 text-center text-sm text-caoba-clara">${escapeHtml(app.es)}</p>
-      <p class="mt-2 text-center text-xs text-caoba-clara">${escapeHtml(app.ayuda)}</p>
+      ${
+        session.feedback
+          ? `<p class="mt-3 text-center font-display text-xl text-cenote">${escapeHtml(app.modelo)}</p>
+             <p class="mt-1 text-center text-xs text-caoba-clara">${escapeHtml(app.ayuda)}</p>`
+          : `<p class="mt-2 text-center text-xs text-caoba-clara">Arma la frase. El modelo aparece después.</p>`
+      }
       <form id="form-aplicar" class="mt-5 space-y-3">
         <label class="sr-only" for="input-aplicar">Frase en taíno</label>
         <input id="input-aplicar" class="field-write" autocomplete="off" spellcheck="false" autocapitalize="words" placeholder="${escapeHtml(app.placeholder || "")}" value="${escapeHtml(session.draft)}" ${session.feedback ? "disabled" : ""} />
@@ -286,12 +359,18 @@ function renderFeedback(word) {
   const step = currentStep();
   const uso = word ? usos[word.id] : null;
   let detail = "";
-  if (step.type === "meaning") {
-    detail = `${session.feedback.ok ? "Así es." : "Sigue escuchando."} ${word.significado_cultural}`;
+  if (step.type === "match") {
+    detail = session.feedback.ok
+      ? "Cada voz encontró su significado. Ahora las usamos en frase."
+      : "Vuelve a unir cada palabra con su glosa.";
+  } else if (step.type === "leer") {
+    detail = session.feedback.ok
+      ? `Así se oye: ${uso?.modelo || word.palabra_taino} — ${uso?.es || word.traduccion_es}`
+      : `La frase ${uso?.modelo || word.palabra_taino} dice: ${uso?.es || word.traduccion_es}`;
   } else if (step.type === "write") {
     detail = session.feedback.ok
-      ? `Bien. Se escribe ${word.palabra_taino}.`
-      : `Se escribe ${word.palabra_taino}. ${uso?.es || ""}`;
+      ? `Bien. Se dice ${uso?.modelo || word.palabra_taino}.`
+      : `Se escribe ${uso?.modelo || word.palabra_taino}.`;
   } else if (step.type === "build") {
     detail = session.feedback.ok
       ? `Así se dice: ${uso.modelo}`
@@ -316,7 +395,7 @@ function renderFeedback(word) {
   return `
     <div class="card-stone mt-4 p-4">
       <p class="text-sm leading-relaxed text-caoba">${escapeHtml(detail)}</p>
-      ${word && step.type === "meaning" ? `<p class="mt-2 text-[11px] text-caoba-clara">${escapeHtml(word.fuente_nota)}</p>` : ""}
+      ${word && step.type === "leer" ? `<p class="mt-2 text-[11px] text-caoba-clara">${escapeHtml(word.fuente_nota)}</p>` : ""}
       <button type="button" id="btn-next" class="btn-primary mt-4 w-full">${nextLabel()}</button>
     </div>
   `;
@@ -343,7 +422,8 @@ export function renderPractica(route) {
   const total = session.steps.length;
   const n = session.index + 1;
   let body = "";
-  if (step.type === "meaning") body = renderMeaning(word);
+  if (step.type === "match") body = renderMatch();
+  else if (step.type === "leer") body = renderLeer(word);
   else if (step.type === "write") body = renderWrite(word);
   else if (step.type === "build") body = renderBuild(word);
   else if (step.type === "presentar") body = renderPresentar(step.persona);
@@ -400,7 +480,8 @@ export function hydratePractica(root) {
   }
 
   root.querySelector("#btn-speak")?.addEventListener("click", async () => {
-    const result = await playWord(word.id, word.palabra_taino);
+    const frase = step.type === "leer" ? usos[word.id]?.modelo || word.palabra_taino : word.palabra_taino;
+    const result = await playWord(step.type === "leer" ? "" : word.id, frase);
     if (result.source === "ninguna") {
       const btn = root.querySelector("#btn-speak");
       if (btn) btn.textContent = word.fonetica_intuitiva;
@@ -442,7 +523,53 @@ export function hydratePractica(root) {
     if (session.feedback) return;
     const value = root.querySelector("#input-write").value;
     session.draft = value;
-    finishFeedback(sameWord(value, word.palabra_taino));
+    const expected = usos[word.id]?.modelo || word.palabra_taino;
+    finishFeedback(samePhrase(value, expected));
+  });
+
+  function tryMatchPair() {
+    if (!session.pickLeft || !session.pickRight) {
+      navigate(`/practica/${session.trailId}/${session.lessonN}`, { replace: true });
+      return;
+    }
+    if (session.pickLeft === session.pickRight) {
+      session.matched = [...session.matched, session.pickLeft];
+      session.pickLeft = null;
+      session.pickRight = null;
+      session.mismatch = null;
+      if (session.matched.length === session.matchLeft.length) {
+        finishFeedback(true);
+        return;
+      }
+    } else {
+      session.mismatch = { left: session.pickLeft, right: session.pickRight };
+      session.pickLeft = null;
+      session.pickRight = null;
+      window.setTimeout(() => {
+        if (!session || session.feedback) return;
+        session.mismatch = null;
+        navigate(`/practica/${session.trailId}/${session.lessonN}`, { replace: true });
+      }, 420);
+    }
+    navigate(`/practica/${session.trailId}/${session.lessonN}`, { replace: true });
+  }
+
+  root.querySelectorAll("[data-match-left]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      if (session.feedback) return;
+      session.pickLeft = btn.dataset.matchLeft;
+      session.mismatch = null;
+      tryMatchPair();
+    });
+  });
+
+  root.querySelectorAll("[data-match-right]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      if (session.feedback) return;
+      session.pickRight = btn.dataset.matchRight;
+      session.mismatch = null;
+      tryMatchPair();
+    });
   });
 
   root.querySelectorAll("[data-tile]").forEach((btn) => {

@@ -78,6 +78,17 @@ export function parsePresentacion(value) {
   return { nombre, conGuakaBoiti: rest.length === 2 };
 }
 
+export function shortGlosa(word) {
+  const raw = String(word?.traduccion_es || "");
+  return raw.split(";")[0].trim() || raw;
+}
+
+export function chunk(list, size) {
+  const out = [];
+  for (let i = 0; i < list.length; i += size) out.push(list.slice(i, i + size));
+  return out;
+}
+
 export function trailProgress(sendero, done) {
   const total = sendero.lecciones.length;
   const count = sendero.lecciones.filter((l) => done.includes(l.id)).length;
