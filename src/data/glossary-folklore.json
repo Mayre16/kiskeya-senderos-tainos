@@ -1,0 +1,226 @@
+[
+  {
+    "id": "yocahu",
+    "palabra_taino": "Yúcahu",
+    "fonetica_ipa": "ˈjukahu",
+    "fonetica_intuitiva": "YÚ-ca-hu",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "Yúcahu; señor de la yuca, hijo de Atabey",
+    "modulo_didactico": "sendero-3",
+    "asset_visual": "yocahu",
+    "simbolo_rupestre": "raiz",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Pané: Yocahu / Yúcahu Bagua Maórocoti, ser del cielo sin padre humano, hijo de Atabey. Señor de la yuca y del sustento.",
+    "significado_cultural": "El pan del casabe tiene dueño espiritual: no se arranca la yuca como botín.",
+    "pilula_sabiduria": "Nombrar a Yúcahu es acordar que el conuco es altar. Se siembra con jajóm, no con hambre ciega.",
+    "opciones": [
+      {
+        "texto": "Yúcahu; señor de la yuca, hijo de Atabey",
+        "asset": "yocahu",
+        "correcta": true
+      },
+      {
+        "texto": "Atabey; madre de las aguas",
+        "asset": "atabey",
+        "correcta": false
+      },
+      {
+        "texto": "Huracán; señor de la tormenta",
+        "asset": "huracan",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "guacar",
+    "palabra_taino": "Guacar",
+    "fonetica_ipa": "ɡwaˈkaɾ",
+    "fonetica_intuitiva": "gua-CAR",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "Guacar; rostro lunar de Atabey (marea, mes, media luna)",
+    "modulo_didactico": "sendero-4",
+    "asset_visual": "karaya",
+    "simbolo_rupestre": "onda",
+    "fuente_tipo": "comparativo",
+    "fuente_nota": "Uno de los cinco nombres de la madre en Pané (Atabey, Yermao, Guacar, Apito, Zuimaco). Arrom y otros lo leen como luna/marea; es hipótesis, no glosa colonial de diosa de la media luna.",
+    "significado_cultural": "La media luna es un rostro de Atabey: agua, ciclo y fertilidad, no otra guerra de dioses.",
+    "pilula_sabiduria": "Saludar la creciente es hablarle a la madre sin pedir espectáculo. El mes también es río.",
+    "opciones": [
+      {
+        "texto": "Guacar; rostro lunar de Atabey",
+        "asset": "karaya",
+        "correcta": true
+      },
+      {
+        "texto": "Yúcahu; señor de la yuca",
+        "asset": "yocahu",
+        "correcta": false
+      },
+      {
+        "texto": "cemí; presencia sagrada",
+        "asset": "cemi",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "karaya",
+    "palabra_taino": "Karaya",
+    "fonetica_ipa": "kaˈɾaja",
+    "fonetica_intuitiva": "ka-RA-ya",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "Karaya; luna y areíto lunar (tradición viva)",
+    "modulo_didactico": "sendero-5",
+    "asset_visual": "karaya",
+    "simbolo_rupestre": "onda",
+    "fuente_tipo": "neotaino",
+    "fuente_nota": "En círculos vivos (Caney y revival) Karaya es la luna, cara visible de Atabey, y el karayán es un areíto de luna. Las Casas no nombra un baile aparte: el género escrito es el areíto.",
+    "significado_cultural": "El karayán de hoy es memoria danzada: rueda, canto y ciclo de veintiocho noches.",
+    "pilula_sabiduria": "No hace falta inventar otra danza colonial. Se entra al areíto y se nombra a Karaya: el cuerpo guarda el mes.",
+    "opciones": [
+      {
+        "texto": "Karaya; luna y areíto lunar (tradición viva)",
+        "asset": "karaya",
+        "correcta": true
+      },
+      {
+        "texto": "Areíto; canto-danza de memoria",
+        "asset": "areito",
+        "correcta": false
+      },
+      {
+        "texto": "Batú; juego de pelota",
+        "asset": "batu",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "tequina",
+    "palabra_taino": "Tequina",
+    "fonetica_ipa": "teˈkina",
+    "fonetica_intuitiva": "te-QUI-na",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "tequina; quien guía el areíto",
+    "modulo_didactico": "sendero-5",
+    "asset_visual": "areito",
+    "simbolo_rupestre": "espiral",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Oviedo y Las Casas describen a quien toma el oficio de guiar el contrapaso y el verso; tequina es el nombre que recogen las fuentes antillanas.",
+    "significado_cultural": "El areíto no es caos: alguien abre el paso y el coro responde. Así se guarda la historia.",
+    "pilula_sabiduria": "Guiar no es mandar el círculo: es prestar el primer verso para que nadie olvide.",
+    "opciones": [
+      {
+        "texto": "tequina; quien guía el areíto",
+        "asset": "areito",
+        "correcta": true
+      },
+      {
+        "texto": "behique; mediador espiritual",
+        "asset": "behique",
+        "correcta": false
+      },
+      {
+        "texto": "cacique; guía del pueblo",
+        "asset": "cacique",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "mayohuacan",
+    "palabra_taino": "Mayohuacán",
+    "fonetica_ipa": "majoˈwakan",
+    "fonetica_intuitiva": "ma-yo-hua-CÁN",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "mayohuacán; tambor de tronco del areíto",
+    "modulo_didactico": "sendero-5",
+    "asset_visual": "mayohuacan",
+    "simbolo_rupestre": "circulo",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Tambor de un tronco ahuecado, abertura en H, percutido con palos. Lo describen las crónicas; grupos vivos lo reconstruyen en bateyes de hoy.",
+    "significado_cultural": "El tronco habla: la madera prestada se vuelve pulso, no leña.",
+    "pilula_sabiduria": "Si el tambor suena, el archivo está abierto. Quien no danza todavía puede escuchar.",
+    "opciones": [
+      {
+        "texto": "mayohuacán; tambor de tronco del areíto",
+        "asset": "mayohuacan",
+        "correcta": true
+      },
+      {
+        "texto": "guamo; caracol que llama",
+        "asset": "guamo",
+        "correcta": false
+      },
+      {
+        "texto": "macana; palo de defensa",
+        "asset": "macana",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "guamo",
+    "palabra_taino": "Guamo",
+    "fonetica_ipa": "ˈɡwamo",
+    "fonetica_intuitiva": "GUA-mo",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "guamo; caracol-trompeta (fotuto)",
+    "modulo_didactico": "sendero-5",
+    "asset_visual": "guamo",
+    "simbolo_rupestre": "espiral",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Trompeta de caracol (también fotuto / botuto). Llama al batey y al areíto. Sigue vivo en fiestas caribeñas y en reconstrucciones taínas.",
+    "significado_cultural": "El cobo de Pané no era adorno: era voz de convocatoria.",
+    "pilula_sabiduria": "Soplar el guamo es pedir que el círculo se junte, no que se vacíe el arrecife.",
+    "opciones": [
+      {
+        "texto": "guamo; caracol-trompeta (fotuto)",
+        "asset": "guamo",
+        "correcta": true
+      },
+      {
+        "texto": "mayohuacán; tambor de tronco",
+        "asset": "mayohuacan",
+        "correcta": false
+      },
+      {
+        "texto": "carey; viajera del mar",
+        "asset": "carey",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "guaitiao",
+    "palabra_taino": "Guaitiao",
+    "fonetica_ipa": "ɡwaiˈtiao",
+    "fonetica_intuitiva": "guai-TI-ao",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "guaitiao; pacto de nombres e alianza",
+    "modulo_didactico": "sendero-5",
+    "asset_visual": "aito",
+    "simbolo_rupestre": "dos-espirales",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Crónicas de Borikén y La Española: intercambiar el nombre sella amistad y tregua.",
+    "significado_cultural": "Nombrar al otro con tu nombre es atar dos orillas. No es disfraz: es deuda de cuidado.",
+    "pilula_sabiduria": "Antes de la guerra estaba el guaitiao. Quien intercambia el nombre promete no vaciar al otro.",
+    "opciones": [
+      {
+        "texto": "guaitiao; pacto de nombres e alianza",
+        "asset": "aito",
+        "correcta": true
+      },
+      {
+        "texto": "báracoa; combate armado",
+        "asset": "macana",
+        "correcta": false
+      },
+      {
+        "texto": "nitaíno; nobleza consejera",
+        "asset": "cacique",
+        "correcta": false
+      }
+    ]
+  }
+]

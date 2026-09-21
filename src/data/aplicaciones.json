@@ -1,0 +1,726 @@
+{
+  "1-1": [
+    {
+      "tipo": "aplicar",
+      "titulo": "Saludar a alguien",
+      "prompt": "Anacaona se acerca. Escríbele un saludo vivo.",
+      "ayuda": "Tau y el nombre de la persona.",
+      "placeholder": "Tau, Anacaona",
+      "patron": "^tau\\s+\\S+",
+      "modelo": "Tau, Anacaona.",
+      "es": "Hola, Anacaona. Te veo y te honro.",
+      "consciencia": "Saludar es reconocer al otro como extensión del mismo tejido."
+    },
+    {
+      "tipo": "escena",
+      "titulo": "Cuándo agradecer",
+      "prompt": "Alguien te ofrece casabe. ¿Qué dices?",
+      "consciencia": "Jajóm no cierra un favor: abre reciprocidad (aito).",
+      "opciones": [
+        {
+          "texto": "Jajóm.",
+          "asset": "jajom",
+          "correcta": true
+        },
+        {
+          "texto": "Taiway.",
+          "asset": "taiway",
+          "correcta": false
+        },
+        {
+          "texto": "Opía.",
+          "asset": "opia",
+          "correcta": false
+        }
+      ]
+    },
+    {
+      "tipo": "escena",
+      "titulo": "Ofrecer o pedir",
+      "prompt": "Pones casabe en las manos de tu hermana. ¿Qué dices al dar, no al pedir?",
+      "consciencia": "Aria es el otro lado de jajóm: el equipo de la reciprocidad.",
+      "opciones": [
+        {
+          "texto": "Aria.",
+          "asset": "jajom",
+          "correcta": true
+        },
+        {
+          "texto": "Malahi busica.",
+          "asset": "aito",
+          "correcta": false
+        },
+        {
+          "texto": "Nono.",
+          "asset": "waribo",
+          "correcta": false
+        }
+      ]
+    }
+  ],
+  "1-2": [
+    {
+      "tipo": "aplicar",
+      "titulo": "Decir quién eres",
+      "prompt": "Te preguntan quién eres. Saluda, di tu nombre y cierra con daka. Si quieres, añade guáka boití.",
+      "ayuda": "Tau, Maireni daka, guáka boití. El nombre va antes de daka.",
+      "placeholder": "Tau, Maireni daka, guáka boití",
+      "patron": "^(tau\\s+)?\\S+(\\s+\\S+)*\\s+daka(\\s+guaka\\s+boiti)?$",
+      "modelo": "Tau, Maireni daka, guáka boití.",
+      "es": "Hola. Soy Maireni. Nuestra fuerza de resguardo.",
+      "guardar_nombre": true,
+      "consciencia": "Como Juan de Esquivel daka: el nombre primero, daka al cierre."
+    },
+    {
+      "tipo": "aplicar",
+      "titulo": "Nombrar al otro",
+      "prompt": "Presenta a la persona que tienes enfrente.",
+      "ayuda": "Su nombre y turi. Ejemplo: Guacanagarí turi.",
+      "placeholder": "Guacanagarí turi",
+      "patron": "^\\S+(\\s+\\S+)*\\s+turi$",
+      "modelo": "Guacanagarí turi.",
+      "es": "Tú eres Guacanagarí.",
+      "consciencia": "Ver al otro es ver una orilla de ti misma."
+    },
+    {
+      "tipo": "aplicar",
+      "titulo": "Nombrar lo mío",
+      "prompt": "Se parte el casabe. Di «mi comida».",
+      "ayuda": "Da imake.",
+      "placeholder": "Da imake",
+      "patron": "^da\\s+imake$",
+      "modelo": "Da imake.",
+      "es": "Mi comida.",
+      "consciencia": "Da sitúa un vínculo, no un título de propiedad absoluta."
+    }
+  ],
+  "1-3": [
+    {
+      "tipo": "aplicar",
+      "titulo": "Recibir el sol",
+      "prompt": "Amanece. Saluda el sol a quien despierta contigo.",
+      "ayuda": "TaiGuey y, si quieres, turi o un nombre.",
+      "placeholder": "TaiGuey, turi",
+      "patron": "^taiguey(\\s+\\S+)?$",
+      "modelo": "TaiGuey, turi.",
+      "es": "Buen sol a ti.",
+      "consciencia": "El día no se posee: se recibe con el astro que abre."
+    },
+    {
+      "tipo": "escena",
+      "titulo": "¿Qué hora es?",
+      "prompt": "El sol ya bajó y sale la luna. ¿Cómo saludas la noche?",
+      "consciencia": "TaiKarayá es el saludo de la luna: reposo, no conquista.",
+      "opciones": [
+        {
+          "texto": "TaiKarayá.",
+          "asset": "taikaraye",
+          "correcta": true
+        },
+        {
+          "texto": "TaiGuey.",
+          "asset": "taiguey",
+          "correcta": false
+        },
+        {
+          "texto": "Takaji.",
+          "asset": "taiway",
+          "correcta": false
+        }
+      ]
+    },
+    {
+      "tipo": "escena",
+      "titulo": "Sol o luna",
+      "prompt": "Es mediodía. ¿Qué frase va con el sol, no con la luna?",
+      "consciencia": "TaiGuey de día; TaiKarayá de noche. El encabezado de Kiskeya cambia solo.",
+      "opciones": [
+        {
+          "texto": "TaiGuey.",
+          "asset": "taiguey",
+          "correcta": true
+        },
+        {
+          "texto": "TaiKarayá.",
+          "asset": "taikaraye",
+          "correcta": false
+        },
+        {
+          "texto": "Opía.",
+          "asset": "opia",
+          "correcta": false
+        }
+      ]
+    }
+  ],
+  "2-1": [
+    {
+      "tipo": "escena",
+      "titulo": "¿Quién habita el agua?",
+      "prompt": "Estás en la bagua (mar). ¿A quién saludas en el agua, no en el monte?",
+      "consciencia": "Nombrar es un pacto: el manatí y el carey son hermanas, no presas.",
+      "opciones": [
+        {
+          "texto": "Tau, manatí.",
+          "asset": "manati",
+          "correcta": true
+        },
+        {
+          "texto": "Tau, jutía.",
+          "asset": "jutia",
+          "correcta": false
+        },
+        {
+          "texto": "Tau, ceiba.",
+          "asset": "ceiba",
+          "correcta": false
+        }
+      ]
+    },
+    {
+      "tipo": "aplicar",
+      "titulo": "Saludar en la orilla",
+      "prompt": "Ves un carey en la playa. Escríbele un saludo.",
+      "ayuda": "Tau, carey.",
+      "placeholder": "Tau, carey",
+      "patron": "^tau\\s+carey$",
+      "modelo": "Tau, carey.",
+      "es": "Hola, viajera del mar.",
+      "consciencia": "La playa es su casa de nacer. Cuidarla es dejarla volver."
+    }
+  ],
+  "2-2": [
+    {
+      "tipo": "escena",
+      "titulo": "¿Quién está en la flor?",
+      "prompt": "Una flor tropical tiembla. ¿Qué ser saluda al néctar?",
+      "consciencia": "El guaní toma y deja la flor en pie.",
+      "opciones": [
+        {
+          "texto": "Tau, guaní.",
+          "asset": "guani",
+          "correcta": true
+        },
+        {
+          "texto": "Tau, carey.",
+          "asset": "carey",
+          "correcta": false
+        },
+        {
+          "texto": "Tau, yuca.",
+          "asset": "yuca",
+          "correcta": false
+        }
+      ]
+    },
+    {
+      "tipo": "aplicar",
+      "titulo": "Saludar a la cigua",
+      "prompt": "Una cigua canta en la palma. Escríbele un saludo.",
+      "ayuda": "Tau, cigua.",
+      "placeholder": "Tau, cigua",
+      "patron": "^tau\\s+cigua$",
+      "modelo": "Tau, cigua.",
+      "es": "Hola, pájaro de la palma.",
+      "consciencia": "Si desaparece la palma, enmudece la cigua."
+    }
+  ],
+  "2-3": [
+    {
+      "tipo": "escena",
+      "titulo": "¿Quién guarda el monte?",
+      "prompt": "Noche en el bosque. ¿A quién nombras con respeto, no con hambre?",
+      "consciencia": "La jutía pide corredor y noche, no cacería de recuerdo.",
+      "opciones": [
+        {
+          "texto": "Tau, jutía.",
+          "asset": "jutia",
+          "correcta": true
+        },
+        {
+          "texto": "Tau, manatí.",
+          "asset": "manati",
+          "correcta": false
+        },
+        {
+          "texto": "Daka casabe.",
+          "asset": "casabe",
+          "correcta": false
+        }
+      ]
+    }
+  ],
+  "3-1": [
+    {
+      "tipo": "escena",
+      "titulo": "¿Qué alimenta el conuco?",
+      "prompt": "Llegas al conuco. ¿Qué raíz pides con agradecimiento para el pan?",
+      "consciencia": "La yuca pide manos y tierra: el alimento es técnica de respeto.",
+      "opciones": [
+        {
+          "texto": "Jajóm, yuca.",
+          "asset": "yuca",
+          "correcta": true
+        },
+        {
+          "texto": "Jajóm, caoba.",
+          "asset": "caoba",
+          "correcta": false
+        },
+        {
+          "texto": "Tau, guaní.",
+          "asset": "guani",
+          "correcta": false
+        }
+      ]
+    },
+    {
+      "tipo": "aplicar",
+      "titulo": "Agradecer a la ceiba",
+      "prompt": "Te sientas a la sombra. Agradece al árbol que une cielo y raíz.",
+      "ayuda": "Jajóm, ceiba.",
+      "placeholder": "Jajóm, ceiba",
+      "patron": "^jajom\\s+ceiba$",
+      "modelo": "Jajóm, ceiba.",
+      "es": "Gracias, ceiba.",
+      "consciencia": "Proteger un árbol es cuidar tu propio aliento."
+    },
+    {
+      "tipo": "escena",
+      "titulo": "Fruta del patio",
+      "prompt": "Tomas fruta dulce del monte, no semilla del conuco. ¿Qué nombras?",
+      "consciencia": "Tomar fruta es jajóm a la mata, no arrancar el árbol.",
+      "opciones": [
+        {
+          "texto": "Da guayaba.",
+          "asset": "rosa",
+          "correcta": true
+        },
+        {
+          "texto": "Da maní.",
+          "asset": "maiz",
+          "correcta": false
+        },
+        {
+          "texto": "Da asúku.",
+          "asset": "casabe",
+          "correcta": false
+        }
+      ]
+    },
+    {
+      "tipo": "escena",
+      "titulo": "¿Quién guarda la yuca?",
+      "prompt": "Antes de sembrar, nombras al señor del conuco. ¿A quién agradeces?",
+      "consciencia": "Yúcahu es hijo de Atabey: el pan tiene madre de agua y dueño de raíz.",
+      "opciones": [
+        {
+          "texto": "Jajóm, Yúcahu.",
+          "asset": "yocahu",
+          "correcta": true
+        },
+        {
+          "texto": "Daka huracán.",
+          "asset": "huracan",
+          "correcta": false
+        },
+        {
+          "texto": "Tau, guaní.",
+          "asset": "guani",
+          "correcta": false
+        }
+      ]
+    }
+  ],
+  "3-2": [
+    {
+      "tipo": "escena",
+      "titulo": "¿Cómo nombras la madera viva?",
+      "prompt": "Ves una caoba. ¿Qué dices si no quieres reducirla a tablón?",
+      "consciencia": "Nombrar es devolverle dignidad de ser vivo.",
+      "opciones": [
+        {
+          "texto": "Jajóm, caoba.",
+          "asset": "caoba",
+          "correcta": true
+        },
+        {
+          "texto": "Daka canoa.",
+          "asset": "canoa",
+          "correcta": false
+        },
+        {
+          "texto": "Tau, carey.",
+          "asset": "carey",
+          "correcta": false
+        }
+      ]
+    }
+  ],
+  "3-3": [
+    {
+      "tipo": "escena",
+      "titulo": "¿Qué sujeta la costa?",
+      "prompt": "Viene un huracán. ¿Qué raíz pide que no la arranques?",
+      "consciencia": "El mangle es cuna de peces y techo contra el viento.",
+      "opciones": [
+        {
+          "texto": "Jajóm, mangle.",
+          "asset": "mangle",
+          "correcta": true
+        },
+        {
+          "texto": "Daka hamaca.",
+          "asset": "hamaca",
+          "correcta": false
+        },
+        {
+          "texto": "Tau, iguana.",
+          "asset": "iguana",
+          "correcta": false
+        }
+      ]
+    },
+    {
+      "tipo": "escena",
+      "titulo": "Tierra o agua",
+      "prompt": "Estás en un islote de arena y coral, no en una llanura de pastos. ¿Dónde estás?",
+      "consciencia": "Un cayo no se rellena ni se vende: se deja ser orilla.",
+      "opciones": [
+        {
+          "texto": "Daka cayo.",
+          "asset": "bagua",
+          "correcta": true
+        },
+        {
+          "texto": "Daka sabana.",
+          "asset": "conuco",
+          "correcta": false
+        },
+        {
+          "texto": "Daka bohío.",
+          "asset": "bohio",
+          "correcta": false
+        }
+      ]
+    }
+  ],
+  "4-1": [
+    {
+      "tipo": "escena",
+      "titulo": "¿A quién pides consejo?",
+      "prompt": "Hay un desequilibrio en la aldea. ¿A quién te diriges?",
+      "consciencia": "La autoridad del behique nace de servir, no de mandar.",
+      "opciones": [
+        {
+          "texto": "Turi behique.",
+          "asset": "behique",
+          "correcta": true
+        },
+        {
+          "texto": "Daka batú.",
+          "asset": "batu",
+          "correcta": false
+        },
+        {
+          "texto": "Tau, jutía.",
+          "asset": "jutia",
+          "correcta": false
+        }
+      ]
+    },
+    {
+      "tipo": "aplicar",
+      "titulo": "Nombrar el resguardo del círculo",
+      "prompt": "Antes de actuar, nombra la fuerza de guardiana —la de todas, no bélica—.",
+      "ayuda": "Guáka boití.",
+      "placeholder": "Guáka boití",
+      "patron": "^guaka\\s+boiti$",
+      "modelo": "Guáka boití.",
+      "es": "Nuestra guardiana. Lo nuestro es boití.",
+      "consciencia": "Hay un poder que se mide en cómo cuidas."
+    }
+  ],
+  "4-2": [
+    {
+      "tipo": "aplicar",
+      "titulo": "Nombrar al combatiente",
+      "prompt": "En el campo, nombra al guerrero —con límite, no con gana ciega—.",
+      "ayuda": "Waribo daka.",
+      "placeholder": "Waribo daka",
+      "patron": "^waribo\\s+daka$",
+      "modelo": "Waribo daka.",
+      "es": "Soy waribo: combatiente en el campo.",
+      "consciencia": "El combate no es el oficio cotidiano del yukayeke."
+    },
+    {
+      "tipo": "escena",
+      "titulo": "Bendecir al círculo",
+      "prompt": "Alguien parte. ¿Qué bendición le ofreces?",
+      "consciencia": "Taino-tí desea que el gran espíritu bueno acompañe, no que conquiste.",
+      "opciones": [
+        {
+          "texto": "Taino-tí.",
+          "asset": "taino-ti",
+          "correcta": true
+        },
+        {
+          "texto": "Daka huracán.",
+          "asset": "huracan",
+          "correcta": false
+        },
+        {
+          "texto": "Nono báracoa.",
+          "asset": "macana",
+          "correcta": false
+        }
+      ]
+    }
+  ],
+  "4-3": [
+    {
+      "tipo": "aplicar",
+      "titulo": "Honrar a quien partió",
+      "prompt": "Pasas por un lugar antiguo. Ofrece respeto a quien ya no está en cuerpo.",
+      "ayuda": "Jajóm, opía.",
+      "placeholder": "Jajóm, opía",
+      "patron": "^jajom\\s+opia$",
+      "modelo": "Jajóm, opía.",
+      "es": "Gracias, espíritu de quien partió.",
+      "consciencia": "Cuidar un lugar antiguo es no pisotear ese sueño."
+    },
+    {
+      "tipo": "aplicar",
+      "titulo": "Hablarle a la madre del agua",
+      "prompt": "Llegas a un río. Agradece a Atabey, dueña de las aguas y de la fertilidad.",
+      "ayuda": "Jajóm, Atabey.",
+      "placeholder": "Jajóm, Atabey",
+      "patron": "^jajom\\s+atabey$",
+      "modelo": "Jajóm, Atabey.",
+      "es": "Gracias, madre de las aguas.",
+      "consciencia": "Pané guarda cinco nombres de la madre. El agua dulce no se vende."
+    },
+    {
+      "tipo": "escena",
+      "titulo": "Rostro de la media luna",
+      "prompt": "Sale la media luna sobre el río. ¿Qué nombre de Atabey se lee como marea y mes?",
+      "consciencia": "Guacar es hipótesis de lectura (Arrom), no otra diosa de guerra.",
+      "opciones": [
+        {
+          "texto": "Jajóm, Guacar.",
+          "asset": "karaya",
+          "correcta": true
+        },
+        {
+          "texto": "Daka batú.",
+          "asset": "batu",
+          "correcta": false
+        },
+        {
+          "texto": "Tau, jutía.",
+          "asset": "jutia",
+          "correcta": false
+        }
+      ]
+    }
+  ],
+  "5-1": [
+    {
+      "tipo": "escena",
+      "titulo": "¿Dónde se junta el pueblo?",
+      "prompt": "Quieres ver a la aldea. ¿A qué espacio caminas?",
+      "consciencia": "El espacio común —no el cercado— sostiene la pertenencia.",
+      "opciones": [
+        {
+          "texto": "Daka batey.",
+          "asset": "batey",
+          "correcta": true
+        },
+        {
+          "texto": "Daka huracán.",
+          "asset": "huracan",
+          "correcta": false
+        },
+        {
+          "texto": "Tau, mangle.",
+          "asset": "mangle",
+          "correcta": false
+        }
+      ]
+    },
+    {
+      "tipo": "aplicar",
+      "titulo": "Entrar al juego",
+      "prompt": "Empieza el juego sagrado. Di que entras al batú.",
+      "ayuda": "Daka batú.",
+      "placeholder": "Daka batú",
+      "patron": "^daka\\s+batu$",
+      "modelo": "Daka batú.",
+      "es": "Entro al juego de pelota.",
+      "consciencia": "Se juega para afirmar el círculo, no para aniquilar."
+    }
+  ],
+  "5-2": [
+    {
+      "tipo": "escena",
+      "titulo": "¿Qué es canto de memoria?",
+      "prompt": "La aldea entra en rueda a recordar. ¿Cómo se llama ese ritmo?",
+      "consciencia": "Las crónicas nombran un solo género de danza: el areíto. El cuerpo también es lengua.",
+      "opciones": [
+        {
+          "texto": "Daka areíto.",
+          "asset": "areito",
+          "correcta": true
+        },
+        {
+          "texto": "Daka canoa.",
+          "asset": "canoa",
+          "correcta": false
+        },
+        {
+          "texto": "Tau, iguana.",
+          "asset": "iguana",
+          "correcta": false
+        }
+      ]
+    },
+    {
+      "tipo": "escena",
+      "titulo": "Luna que se danza",
+      "prompt": "Es noche de luna. El círculo vivo nombra un areíto lunar. ¿Cómo lo llama hoy?",
+      "consciencia": "Karaya no es un baile colonial distinto: es tradición viva sobre el género areíto.",
+      "opciones": [
+        {
+          "texto": "Jajóm, Karaya.",
+          "asset": "karaya",
+          "correcta": true
+        },
+        {
+          "texto": "Daka canoa.",
+          "asset": "canoa",
+          "correcta": false
+        },
+        {
+          "texto": "Tau, iguana.",
+          "asset": "iguana",
+          "correcta": false
+        }
+      ]
+    },
+    {
+      "tipo": "aplicar",
+      "titulo": "Nombrar a quien guía",
+      "prompt": "Alguien abre el contrapaso y el verso. Nómbrala.",
+      "ayuda": "Turi tequina.",
+      "placeholder": "Turi tequina",
+      "patron": "^turi\\s+tequina$",
+      "modelo": "Turi tequina.",
+      "es": "Tú eres tequina: abres el verso.",
+      "consciencia": "El areíto no es caos: el coro responde a un primer verso."
+    },
+    {
+      "tipo": "escena",
+      "titulo": "¿Qué llama al batey?",
+      "prompt": "Quieren juntar el círculo. ¿Qué voz de caracol convoca, no el tambor de tronco?",
+      "consciencia": "El guamo llama; el mayohuacán marca el paso. Ambos siguen vivos.",
+      "opciones": [
+        {
+          "texto": "Jajóm, guamo.",
+          "asset": "guamo",
+          "correcta": true
+        },
+        {
+          "texto": "Jajóm, mayohuacán.",
+          "asset": "mayohuacan",
+          "correcta": false
+        },
+        {
+          "texto": "Daka hamaca.",
+          "asset": "hamaca",
+          "correcta": false
+        }
+      ]
+    },
+    {
+      "tipo": "aplicar",
+      "titulo": "Ofrecer alianza",
+      "prompt": "Quieres atar dos orillas sin guerra. Nombra el pacto de intercambiar el nombre.",
+      "ayuda": "Daka guaitiao.",
+      "placeholder": "Daka guaitiao",
+      "patron": "^daka\\s+guaitiao$",
+      "modelo": "Daka guaitiao.",
+      "es": "Ofrezco guaitiao: pacto de nombres.",
+      "consciencia": "Antes de la guerra estaba el guaitiao."
+    },
+    {
+      "tipo": "escena",
+      "titulo": "Umbral, no receta",
+      "prompt": "Alguien pregunta cómo se «hace» la cohoba. ¿Qué respondes?",
+      "consciencia": "Pané describe un rito reservado. Esta app nombra, no enseña a cruzar el umbral.",
+      "opciones": [
+        {
+          "texto": "Jajóm, cohoba. Umbral, no receta.",
+          "asset": "cohoba",
+          "correcta": true
+        },
+        {
+          "texto": "Daka cohoba: yo la preparo.",
+          "asset": "cohoba",
+          "correcta": false
+        },
+        {
+          "texto": "Da imake.",
+          "asset": "casabe",
+          "correcta": false
+        }
+      ]
+    }
+  ],
+  "5-3": [
+    {
+      "tipo": "escena",
+      "titulo": "¿Qué usas para reposar?",
+      "prompt": "El cuerpo pide detenerse. ¿Qué tejido pides?",
+      "consciencia": "Quien no se detiene termina por romper el hilo.",
+      "opciones": [
+        {
+          "texto": "Daka hamaca.",
+          "asset": "hamaca",
+          "correcta": true
+        },
+        {
+          "texto": "Daka macana.",
+          "asset": "macana",
+          "correcta": false
+        },
+        {
+          "texto": "Tau, guaní.",
+          "asset": "guani",
+          "correcta": false
+        }
+      ]
+    },
+    {
+      "tipo": "aplicar",
+      "titulo": "Decir a qué tierra perteneces",
+      "prompt": "Te preguntan de dónde eres. Nombra la isla-madre.",
+      "ayuda": "Daka Kiskeya.",
+      "placeholder": "Daka Kiskeya",
+      "patron": "^daka\\s+kiskeya$",
+      "modelo": "Daka Kiskeya.",
+      "es": "Yo pertenezco a Kiskeya.",
+      "consciencia": "Cuidar Kiskeya es cuidar el propio nombre."
+    },
+    {
+      "tipo": "aplicar",
+      "titulo": "Pedir el alimento",
+      "prompt": "Se parte el día. Nombra la comida.",
+      "ayuda": "Da imake. o Daka imake.",
+      "placeholder": "Da imake",
+      "patron": "^(da|daka)\\s+imake$",
+      "modelo": "Da imake.",
+      "es": "Mi comida.",
+      "consciencia": "El alimento es vínculo, no botín."
+    }
+  ]
+}

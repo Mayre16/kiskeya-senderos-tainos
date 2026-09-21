@@ -1,0 +1,546 @@
+[
+  {
+    "id": "aito",
+    "palabra_taino": "Aito",
+    "fonetica_ipa": "ˈaito",
+    "fonetica_intuitiva": "AI-to",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "reciprocidad; convivencia armónica",
+    "modulo_didactico": "sendero-1",
+    "asset_visual": "aito",
+    "simbolo_rupestre": "dos-espirales",
+    "fuente_tipo": "neotaino",
+    "fuente_nota": "Uso pedagógico para la reciprocidad; no es glosa colonial única.",
+    "significado_cultural": "Lo que se recibe pide cuidado de vuelta: al otro, al río, a la tierra.",
+    "pilula_sabiduria": "Aito es el pacto cotidiano: no extraer más de lo que el círculo puede reponer.",
+    "opciones": [
+      {
+        "texto": "reciprocidad; convivencia armónica",
+        "asset": "aito",
+        "correcta": true
+      },
+      {
+        "texto": "hola; te veo y te honro",
+        "asset": "tau",
+        "correcta": false
+      },
+      {
+        "texto": "protectora; guardiana espiritual",
+        "asset": "boiti",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "bagua",
+    "palabra_taino": "Bagua",
+    "fonetica_ipa": "ˈbaɣwa",
+    "fonetica_intuitiva": "BA-gua",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "mar; agua grande",
+    "modulo_didactico": "sendero-2",
+    "asset_visual": "bagua",
+    "simbolo_rupestre": "onda",
+    "fuente_tipo": "comparativo",
+    "fuente_nota": "Uso didáctico caribeño para el mar; emparentado con voces arahuacas del agua.",
+    "significado_cultural": "La bagua no es frontera: es casa del carey y camino de la canoa.",
+    "pilula_sabiduria": "Hablar de la bagua es acordar no vaciarla.",
+    "opciones": [
+      {
+        "texto": "mar; agua grande",
+        "asset": "bagua",
+        "correcta": true
+      },
+      {
+        "texto": "canoa; vientre que cruza",
+        "asset": "canoa",
+        "correcta": false
+      },
+      {
+        "texto": "conuco; parcela que alimenta",
+        "asset": "conuco",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "conuco",
+    "palabra_taino": "Conuco",
+    "fonetica_ipa": "koˈnuko",
+    "fonetica_intuitiva": "co-NU-co",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "conuco; parcela que alimenta",
+    "modulo_didactico": "sendero-3",
+    "asset_visual": "conuco",
+    "simbolo_rupestre": "raiz",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Indigenismo vivo: parcela de yuca, maíz y acompañantes.",
+    "significado_cultural": "El conuco es escuela de paciencia: sembrar, esperar, compartir.",
+    "pilula_sabiduria": "Honrar el conuco es honrar las manos y el suelo, no solo el plato.",
+    "opciones": [
+      {
+        "texto": "conuco; parcela que alimenta",
+        "asset": "conuco",
+        "correcta": true
+      },
+      {
+        "texto": "batey; plaza del pueblo",
+        "asset": "batey",
+        "correcta": false
+      },
+      {
+        "texto": "bohío; casa de la aldea",
+        "asset": "bohio",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "bohio",
+    "palabra_taino": "Bohío",
+    "fonetica_ipa": "boˈio",
+    "fonetica_intuitiva": "bo-HÍ-o",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "bohío; casa de la aldea",
+    "modulo_didactico": "sendero-5",
+    "asset_visual": "bohio",
+    "simbolo_rupestre": "circulo",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Vivienda taína de yagua y madera; voz viva en el Caribe.",
+    "significado_cultural": "El bohío es sombra compartida, no fortaleza.",
+    "pilula_sabiduria": "Entrar al bohío es aceptar que el techo cubre a más de uno.",
+    "opciones": [
+      {
+        "texto": "bohío; casa de la aldea",
+        "asset": "bohio",
+        "correcta": true
+      },
+      {
+        "texto": "caney; casa mayor",
+        "asset": "caney",
+        "correcta": false
+      },
+      {
+        "texto": "hamaca; tejido que meces",
+        "asset": "hamaca",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "cacique",
+    "palabra_taino": "Cacique",
+    "fonetica_ipa": "kaˈsike",
+    "fonetica_intuitiva": "ca-CI-que",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "cacique; quien sostiene el yukayeke",
+    "modulo_didactico": "sendero-4",
+    "asset_visual": "cacique",
+    "simbolo_rupestre": "cara",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Autoridad política taína; ampliamente registrada en crónicas.",
+    "significado_cultural": "El cacique ordena el círculo: no es dueño de la gente ni de la tierra.",
+    "pilula_sabiduria": "Mandar, en esta lengua, es responder por el equilibrio del pueblo.",
+    "opciones": [
+      {
+        "texto": "cacique; quien sostiene el yukayeke",
+        "asset": "cacique",
+        "correcta": true
+      },
+      {
+        "texto": "behique; mediador espiritual",
+        "asset": "behique",
+        "correcta": false
+      },
+      {
+        "texto": "naboria; gente del trabajo común",
+        "asset": "naboria",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "naboria",
+    "palabra_taino": "Naboria",
+    "fonetica_ipa": "naˈboɾja",
+    "fonetica_intuitiva": "na-BO-ria",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "naboria; gente del trabajo común",
+    "modulo_didactico": "sendero-4",
+    "asset_visual": "naboria",
+    "simbolo_rupestre": "circulo",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "En crónicas, pueblo trabajador del yukayeke; aquí se enseña sin el sesgo colonial de «siervo».",
+    "significado_cultural": "La aldea se sostiene en muchas manos, no en un solo nombre.",
+    "pilula_sabiduria": "Naboria recuerda que la dignidad no vive solo en el caney.",
+    "opciones": [
+      {
+        "texto": "naboria; gente del trabajo común",
+        "asset": "naboria",
+        "correcta": true
+      },
+      {
+        "texto": "cacique; quien sostiene el yukayeke",
+        "asset": "cacique",
+        "correcta": false
+      },
+      {
+        "texto": "boria; el trabajo del día",
+        "asset": "boria",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "yukayeke",
+    "palabra_taino": "Yukayeke",
+    "fonetica_ipa": "jukaˈjeke",
+    "fonetica_intuitiva": "yu-ka-YE-ke",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "yukayeke; aldea, poblado",
+    "modulo_didactico": "sendero-5",
+    "asset_visual": "yukayeke",
+    "simbolo_rupestre": "circulo",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Asentamiento taíno: bohíos, batey y conucos en un mismo tejido.",
+    "significado_cultural": "El yukayeke es el cuerpo de la comunidad.",
+    "pilula_sabiduria": "Cuidar el yukayeke es cuidar batey, conuco y bohío como un solo ser.",
+    "opciones": [
+      {
+        "texto": "yukayeke; aldea, poblado",
+        "asset": "yukayeke",
+        "correcta": true
+      },
+      {
+        "texto": "batey; plaza ceremonial",
+        "asset": "batey",
+        "correcta": false
+      },
+      {
+        "texto": "Kiskeya; tierra de montañas y madre",
+        "asset": "kiskeya",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "maiz",
+    "palabra_taino": "Maíz",
+    "fonetica_ipa": "maˈis",
+    "fonetica_intuitiva": "ma-ÍS",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "maíz; grano del conuco",
+    "modulo_didactico": "sendero-3",
+    "asset_visual": "maiz",
+    "simbolo_rupestre": "raiz",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Cultivo antillano; la voz pasó al español. Acompañante de la yuca.",
+    "significado_cultural": "El maíz viaja con las manos: semilla, fuego, mesa.",
+    "pilula_sabiduria": "Donde hay maíz hay memoria de quien sembró.",
+    "opciones": [
+      {
+        "texto": "maíz; grano del conuco",
+        "asset": "maiz",
+        "correcta": true
+      },
+      {
+        "texto": "yuca; raíz que alimenta",
+        "asset": "yuca",
+        "correcta": false
+      },
+      {
+        "texto": "ají; fruto que pica y cura",
+        "asset": "aji",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "aji",
+    "palabra_taino": "Ají",
+    "fonetica_ipa": "aˈxi",
+    "fonetica_intuitiva": "a-JÍ",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "ají; fruto que pica y cura",
+    "modulo_didactico": "sendero-3",
+    "asset_visual": "aji",
+    "simbolo_rupestre": "espina",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Indigenismo arahuaco universalizado.",
+    "significado_cultural": "El ají condimenta y medicina: fuego pequeño en la comida.",
+    "pilula_sabiduria": "Un fruto puede ser frontera y don a la vez.",
+    "opciones": [
+      {
+        "texto": "ají; fruto que pica y cura",
+        "asset": "aji",
+        "correcta": true
+      },
+      {
+        "texto": "batata; raíz dulce",
+        "asset": "batata",
+        "correcta": false
+      },
+      {
+        "texto": "casabe; pan del conuco",
+        "asset": "casabe",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "batata",
+    "palabra_taino": "Batata",
+    "fonetica_ipa": "baˈtata",
+    "fonetica_intuitiva": "ba-TA-ta",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "batata; raíz dulce",
+    "modulo_didactico": "sendero-3",
+    "asset_visual": "batata",
+    "simbolo_rupestre": "raiz",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Préstamo taíno al español y luego al mundo.",
+    "significado_cultural": "Otra raíz del conuco: diversidad, no monocultivo.",
+    "pilula_sabiduria": "El conuco enseña que una sola semilla no sostiene al pueblo.",
+    "opciones": [
+      {
+        "texto": "batata; raíz dulce",
+        "asset": "batata",
+        "correcta": true
+      },
+      {
+        "texto": "yuca; raíz que alimenta",
+        "asset": "yuca",
+        "correcta": false
+      },
+      {
+        "texto": "maíz; grano del conuco",
+        "asset": "maiz",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "huracan",
+    "palabra_taino": "Huracán",
+    "fonetica_ipa": "uɾaˈkan",
+    "fonetica_intuitiva": "hu-ra-CÁN",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "huracán; viento mayor",
+    "modulo_didactico": "sendero-3",
+    "asset_visual": "huracan",
+    "simbolo_rupestre": "espiral",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Deidad y fenómeno; la voz taína viajó a todas las lenguas.",
+    "significado_cultural": "El huracán no se conquista: se escucha y se prepara el mangle.",
+    "pilula_sabiduria": "Nombrar al huracán es acordar no desarmar la costa que nos cubre.",
+    "opciones": [
+      {
+        "texto": "huracán; viento mayor",
+        "asset": "huracan",
+        "correcta": true
+      },
+      {
+        "texto": "bagua; mar; agua grande",
+        "asset": "bagua",
+        "correcta": false
+      },
+      {
+        "texto": "areíto; ceremonia de canto",
+        "asset": "areito",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "atabey",
+    "palabra_taino": "Atabey",
+    "fonetica_ipa": "ataˈβei",
+    "fonetica_intuitiva": "a-ta-BEY",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "Atabey; madre de las aguas y de la fertilidad",
+    "modulo_didactico": "sendero-4",
+    "asset_visual": "atabey",
+    "simbolo_rupestre": "cara",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Pané: madre de Yúcahu y dueña de las aguas dulces y de la fertilidad. Cinco nombres: Atabey, Yermao, Guacar, Apito, Zuimaco. No se documenta un panteón de «diosa de la media luna» aparte; Guacar se lee así por hipótesis.",
+    "significado_cultural": "Atabey nombra el agua que no se vende y el ciclo que hace nacer. Hablarle es cuidar río, luna y vientre, no pedir espectáculo.",
+    "pilula_sabiduria": "Cuidar un río es hablarle a Atabey. La fertilidad no es mercancía: es pacto con el agua.",
+    "opciones": [
+      {
+        "texto": "Atabey; madre de las aguas y de la fertilidad",
+        "asset": "atabey",
+        "correcta": true
+      },
+      {
+        "texto": "cemí; presencia sagrada",
+        "asset": "cemi",
+        "correcta": false
+      },
+      {
+        "texto": "opía; espíritu de quien partió",
+        "asset": "opia",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "boria",
+    "palabra_taino": "Boria",
+    "fonetica_ipa": "ˈboɾja",
+    "fonetica_intuitiva": "BO-ria",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "boria; el trabajo del día",
+    "modulo_didactico": "sendero-5",
+    "asset_visual": "boria",
+    "simbolo_rupestre": "onda",
+    "fuente_tipo": "neotaino",
+    "fuente_nota": "Uso pedagógico de revival para el trabajo; no es la única reconstrucción.",
+    "significado_cultural": "El trabajo es servicio al círculo, no extracción de uno mismo.",
+    "pilula_sabiduria": "Boria pide ritmo: hay un tiempo de conuco y un tiempo de hamaca.",
+    "opciones": [
+      {
+        "texto": "boria; el trabajo del día",
+        "asset": "boria",
+        "correcta": true
+      },
+      {
+        "texto": "dòmí; el reposo",
+        "asset": "domi",
+        "correcta": false
+      },
+      {
+        "texto": "naboria; gente del trabajo común",
+        "asset": "naboria",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "domi",
+    "palabra_taino": "Dòmí",
+    "fonetica_ipa": "doˈmi",
+    "fonetica_intuitiva": "dò-MÍ",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "dòmí; el reposo",
+    "modulo_didactico": "sendero-5",
+    "asset_visual": "domi",
+    "simbolo_rupestre": "onda",
+    "fuente_tipo": "neotaino",
+    "fuente_nota": "Forma de revival para dormir / reposar.",
+    "significado_cultural": "El reposo también es cultura: el cuerpo se entrega al aire.",
+    "pilula_sabiduria": "Sin dòmí no hay boria justa. El descanso guarda la intención.",
+    "opciones": [
+      {
+        "texto": "dòmí; el reposo",
+        "asset": "domi",
+        "correcta": true
+      },
+      {
+        "texto": "hamaca; tejido que meces",
+        "asset": "hamaca",
+        "correcta": false
+      },
+      {
+        "texto": "boria; el trabajo del día",
+        "asset": "boria",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "dujo",
+    "palabra_taino": "Dujo",
+    "fonetica_ipa": "ˈduxo",
+    "fonetica_intuitiva": "DU-jo",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "dujo; asiento ceremonial",
+    "modulo_didactico": "sendero-5",
+    "asset_visual": "dujo",
+    "simbolo_rupestre": "cara",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Asiento zoomorfo de madera; objeto de poder y de escucha.",
+    "significado_cultural": "Sentarse en el dujo es aceptar responsabilidad, no trono.",
+    "pilula_sabiduria": "El dujo no eleva por encima del batey: te obliga a oír.",
+    "opciones": [
+      {
+        "texto": "dujo; asiento ceremonial",
+        "asset": "dujo",
+        "correcta": true
+      },
+      {
+        "texto": "cemí; presencia sagrada",
+        "asset": "cemi",
+        "correcta": false
+      },
+      {
+        "texto": "bohío; casa de la aldea",
+        "asset": "bohio",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "caney",
+    "palabra_taino": "Caney",
+    "fonetica_ipa": "kaˈnei",
+    "fonetica_intuitiva": "ca-NEY",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "caney; casa mayor",
+    "modulo_didactico": "sendero-5",
+    "asset_visual": "caney",
+    "simbolo_rupestre": "circulo",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Casa rectangular del cacique y de reunión; distinta del bohío familiar.",
+    "significado_cultural": "El caney es techo de consejo, no palacio cerrado.",
+    "pilula_sabiduria": "Lo que se decide en el caney debe poder caminarse en el batey.",
+    "opciones": [
+      {
+        "texto": "caney; casa mayor",
+        "asset": "caney",
+        "correcta": true
+      },
+      {
+        "texto": "bohío; casa de la aldea",
+        "asset": "bohio",
+        "correcta": false
+      },
+      {
+        "texto": "batey; plaza ceremonial",
+        "asset": "batey",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "macana",
+    "palabra_taino": "Macana",
+    "fonetica_ipa": "maˈkana",
+    "fonetica_intuitiva": "ma-CA-na",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "macana; palo de defensa",
+    "modulo_didactico": "sendero-4",
+    "asset_visual": "macana",
+    "simbolo_rupestre": "espina",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Arma-herramienta de madera; indigenismo vivo.",
+    "significado_cultural": "La macana es límite, no deseo de guerra.",
+    "pilula_sabiduria": "Hay defensas que no buscan sangre: buscan que el círculo siga en pie.",
+    "opciones": [
+      {
+        "texto": "macana; palo de defensa",
+        "asset": "macana",
+        "correcta": true
+      },
+      {
+        "texto": "dujo; asiento ceremonial",
+        "asset": "dujo",
+        "correcta": false
+      },
+      {
+        "texto": "canoa; vientre que cruza",
+        "asset": "canoa",
+        "correcta": false
+      }
+    ]
+  }
+]

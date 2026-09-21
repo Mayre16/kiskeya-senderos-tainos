@@ -1,0 +1,121 @@
+{
+  "aito": {
+    "pista": "Escribe la palabra de la reciprocidad",
+    "modelo": "Daka aito.",
+    "es": "Camino en reciprocidad.",
+    "tokens": ["Daka", "aito"],
+    "distractores": ["Tau", "Waribo"]
+  },
+  "bagua": {
+    "pista": "Escribe el nombre del mar",
+    "modelo": "Daka bagua.",
+    "es": "Voy al mar.",
+    "tokens": ["Daka", "bagua"],
+    "distractores": ["Canoa", "Conuco"]
+  },
+  "conuco": {
+    "pista": "Escribe el nombre de la parcela que alimenta",
+    "modelo": "Daka conuco.",
+    "es": "Estoy en el conuco.",
+    "tokens": ["Daka", "conuco"],
+    "distractores": ["Batey", "Bohío"]
+  },
+  "bohio": {
+    "pista": "Escribe el nombre de la casa",
+    "modelo": "Daka bohío.",
+    "es": "Estoy en el bohío.",
+    "tokens": ["Daka", "bohío"],
+    "distractores": ["Caney", "Hamaca"]
+  },
+  "cacique": {
+    "pista": "Escribe quién sostiene el yukayeke",
+    "modelo": "Cacique turi.",
+    "es": "Tú eres cacique: respondes por el pueblo.",
+    "tokens": ["Cacique", "turi"],
+    "distractores": ["Behique", "Naboria"]
+  },
+  "naboria": {
+    "pista": "Escribe la gente del trabajo común",
+    "modelo": "Naboria daka.",
+    "es": "Soy del trabajo común de la aldea.",
+    "tokens": ["Naboria", "daka"],
+    "distractores": ["Cacique", "Boria"]
+  },
+  "yukayeke": {
+    "pista": "Escribe el nombre de la aldea",
+    "modelo": "Daka yukayeke.",
+    "es": "Estoy en la aldea.",
+    "tokens": ["Daka", "yukayeke"],
+    "distractores": ["Batey", "Kiskeya"]
+  },
+  "maiz": {
+    "pista": "Escribe el grano del conuco",
+    "modelo": "Jajóm, maíz.",
+    "es": "Gracias, maíz.",
+    "tokens": ["Jajóm", "maíz"],
+    "distractores": ["Yuca", "Ají"]
+  },
+  "aji": {
+    "pista": "Escribe el fruto que pica",
+    "modelo": "Jajóm, ají.",
+    "es": "Gracias, ají.",
+    "tokens": ["Jajóm", "ají"],
+    "distractores": ["Batata", "Casabe"]
+  },
+  "batata": {
+    "pista": "Escribe la raíz dulce",
+    "modelo": "Jajóm, batata.",
+    "es": "Gracias, batata.",
+    "tokens": ["Jajóm", "batata"],
+    "distractores": ["Yuca", "Maíz"]
+  },
+  "huracan": {
+    "pista": "Escribe el nombre del viento mayor",
+    "modelo": "Jajóm, mangle.",
+    "es": "Ante el huracán, se honra el mangle.",
+    "tokens": ["Jajóm", "mangle"],
+    "distractores": ["Huracán", "Bagua"]
+  },
+  "atabey": {
+    "pista": "Escribe el nombre de la madre de las aguas y la fertilidad",
+    "modelo": "Jajóm, Atabey.",
+    "es": "Gracias, madre de las aguas y de la fertilidad.",
+    "tokens": ["Jajóm", "Atabey"],
+    "distractores": ["Cemí", "Opía"]
+  },
+  "boria": {
+    "pista": "Escribe la palabra del trabajo del día",
+    "modelo": "Daka boria.",
+    "es": "Voy al trabajo del día.",
+    "tokens": ["Daka", "boria"],
+    "distractores": ["Dòmí", "Naboria"]
+  },
+  "domi": {
+    "pista": "Escribe la palabra del reposo",
+    "modelo": "Daka dòmí.",
+    "es": "Voy al reposo.",
+    "tokens": ["Daka", "dòmí"],
+    "distractores": ["Hamaca", "Boria"]
+  },
+  "dujo": {
+    "pista": "Escribe el asiento ceremonial",
+    "modelo": "Daka dujo.",
+    "es": "Me siento a escuchar.",
+    "tokens": ["Daka", "dujo"],
+    "distractores": ["Cemí", "Bohío"]
+  },
+  "caney": {
+    "pista": "Escribe el nombre de la casa mayor",
+    "modelo": "Daka caney.",
+    "es": "Entro a la casa de consejo.",
+    "tokens": ["Daka", "caney"],
+    "distractores": ["Bohío", "Batey"]
+  },
+  "macana": {
+    "pista": "Escribe el palo de defensa",
+    "modelo": "Daka macana.",
+    "es": "La macana pide waribo con límite, no gana ciega.",
+    "tokens": ["Daka", "macana"],
+    "distractores": ["Macana", "Dujo"]
+  }
+}

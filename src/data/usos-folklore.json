@@ -1,0 +1,93 @@
+{
+  "yocahu": {
+    "pista": "Escribe el nombre del señor de la yuca",
+    "modelo": "Jajóm, Yúcahu.",
+    "es": "Gracias, señor de la yuca.",
+    "tokens": [
+      "Jajóm",
+      "Yúcahu"
+    ],
+    "distractores": [
+      "Atabey",
+      "Yuca"
+    ]
+  },
+  "guacar": {
+    "pista": "Escribe el rostro lunar de Atabey",
+    "modelo": "Jajóm, Guacar.",
+    "es": "Gracias, rostro lunar de Atabey.",
+    "tokens": [
+      "Jajóm",
+      "Guacar"
+    ],
+    "distractores": [
+      "Karaya",
+      "Opía"
+    ]
+  },
+  "karaya": {
+    "pista": "Escribe el nombre de la luna viva",
+    "modelo": "Jajóm, Karaya.",
+    "es": "Gracias, luna del areíto.",
+    "tokens": [
+      "Jajóm",
+      "Karaya"
+    ],
+    "distractores": [
+      "Areíto",
+      "Takarayá"
+    ]
+  },
+  "tequina": {
+    "pista": "Escribe quién guía el areíto",
+    "modelo": "Turi tequina.",
+    "es": "Tú eres tequina: abres el verso.",
+    "tokens": [
+      "Turi",
+      "tequina"
+    ],
+    "distractores": [
+      "Behique",
+      "Cacique"
+    ]
+  },
+  "mayohuacan": {
+    "pista": "Escribe el tambor de tronco",
+    "modelo": "Jajóm, mayohuacán.",
+    "es": "Gracias, tambor de tronco.",
+    "tokens": [
+      "Jajóm",
+      "mayohuacán"
+    ],
+    "distractores": [
+      "Guamo",
+      "Batú"
+    ]
+  },
+  "guamo": {
+    "pista": "Escribe el caracol que llama",
+    "modelo": "Jajóm, guamo.",
+    "es": "Gracias, caracol que llama al círculo.",
+    "tokens": [
+      "Jajóm",
+      "guamo"
+    ],
+    "distractores": [
+      "Mayohuacán",
+      "Carey"
+    ]
+  },
+  "guaitiao": {
+    "pista": "Escribe el pacto de nombres",
+    "modelo": "Daka guaitiao.",
+    "es": "Ofrezco guaitiao: pacto de nombres.",
+    "tokens": [
+      "Daka",
+      "guaitiao"
+    ],
+    "distractores": [
+      "Báracoa",
+      "Areíto"
+    ]
+  }
+}

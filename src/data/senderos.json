@@ -1,0 +1,225 @@
+{
+  "senderos": [
+    {
+      "id": 1,
+      "slug": "encuentro",
+      "titulo": "La Voz del Encuentro",
+      "subtitulo": "Tau y la comunidad",
+      "color": "terracota",
+      "icono": "tau",
+      "intro": "Saludar es reconocer al hermano en la gran aldea común. En taíno, la voz no solo nombra: abre un espacio de presencia entre quienes se encuentran.",
+      "cierre": "Hoy, al cruzarte con alguien, detén un instante el paso. Un saludo atento es la primera forma de custodia: ver al otro como parte del mismo tejido.",
+      "lecciones": [
+        {
+          "id": "1-1",
+          "titulo": "Abrir la voz",
+          "palabras": [
+            "tau",
+            "jajom",
+            "aito",
+            "aria",
+            "malahi",
+            "charly",
+            "banya"
+          ]
+        },
+        {
+          "id": "1-2",
+          "titulo": "Yo y tú",
+          "palabras": [
+            "daka",
+            "turi",
+            "da",
+            "li",
+            "guaka",
+            "nono",
+            "ma",
+            "ita"
+          ]
+        },
+        {
+          "id": "1-3",
+          "titulo": "Sol y luna",
+          "palabras": [
+            "taiguey",
+            "takaji",
+            "taikaraye",
+            "tai-guaio"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "hermanos",
+      "titulo": "Hermanos Alados y de Agua",
+      "subtitulo": "Fauna y vínculo sagrado",
+      "color": "cenote",
+      "icono": "manati",
+      "intro": "La fauna de Kiskeya no es recurso: es mensajera y compañera de existencia. Cada nombre es un pacto de respeto con quien comparte el agua, el aire y la rama.",
+      "cierre": "Esta semana, observa un ser vivo sin pedirle nada. El manatí, el guaní y la cigua nos recuerdan que la isla se habita en compañía, no en dominio.",
+      "lecciones": [
+        {
+          "id": "2-1",
+          "titulo": "Hermanos del agua",
+          "palabras": [
+            "manati",
+            "carey",
+            "bagua",
+            "kameka"
+          ]
+        },
+        {
+          "id": "2-2",
+          "titulo": "Hermanos del aire",
+          "palabras": [
+            "guani",
+            "cigua"
+          ]
+        },
+        {
+          "id": "2-3",
+          "titulo": "Guardianes de la orilla",
+          "palabras": [
+            "jutia",
+            "iguana"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "raiz",
+      "titulo": "La Raíz Guardiana",
+      "subtitulo": "Flora y protección de la tierra",
+      "color": "palma",
+      "icono": "ceiba",
+      "intro": "Los árboles ancestrales enseñan enraizamiento y regeneración. Proteger una ceiba o un mangle es cuidar el aliento de la isla. Yúcahu, hijo de Atabey, recuerda que el conuco también es altar.",
+      "cierre": "Elige un árbol cercano y aprende su nombre. Si puedes, riega, no cortes. La raíz que guardas hoy es la sombra de quien vendrá.",
+      "lecciones": [
+        {
+          "id": "3-1",
+          "titulo": "Madre, pan y Yúcahu",
+          "palabras": [
+            "ceiba",
+            "yuca",
+            "conuco",
+            "mani",
+            "guayaba",
+            "yocahu"
+          ]
+        },
+        {
+          "id": "3-2",
+          "titulo": "Maderas eternas",
+          "palabras": [
+            "caoba",
+            "guayacan"
+          ]
+        },
+        {
+          "id": "3-3",
+          "titulo": "Orilla y espina",
+          "palabras": [
+            "mangle",
+            "guazabara",
+            "cayo",
+            "sabana"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "fuerza",
+      "titulo": "La Fuerza Interior",
+      "subtitulo": "Boití, Waribo y la bendición",
+      "color": "ocre",
+      "icono": "behique",
+      "intro": "La fuerza taína no es conquista: es resguardo interior, combate con límite y bendición del círculo. Atabey —aguas y fertilidad— y sus rostros, como Guacar, recuerdan que el aliento también es ciclo.",
+      "cierre": "Antes de hablar o decidir, respira una vez. La guardiana y el guerrero se miden en cómo cuidan, no en cuánto aplastan.",
+      "lecciones": [
+        {
+          "id": "4-1",
+          "titulo": "Quien escucha",
+          "palabras": [
+            "behique",
+            "boiti",
+            "cacique",
+            "nitaino"
+          ]
+        },
+        {
+          "id": "4-2",
+          "titulo": "Guerra y bendición",
+          "palabras": [
+            "waribo",
+            "taino-ti",
+            "baracoa"
+          ]
+        },
+        {
+          "id": "4-3",
+          "titulo": "Agua, luna y quienes partieron",
+          "palabras": [
+            "opia",
+            "baju",
+            "atabey",
+            "guacar"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "circulo",
+      "titulo": "El Círculo Sagrado",
+      "subtitulo": "Batey, areíto y ritos vivos",
+      "color": "caoba",
+      "icono": "batey",
+      "intro": "Pertenecer a Kiskeya es entrar al círculo: el batey, el areíto, el casabe. Las crónicas nombran un solo género de danza —el areíto— con tequina, mayohuacán y guamo. Karaya es el areíto lunar que sigue vivo.",
+      "cierre": "Siembra o comparte algo hoy —una palabra, un alimento, un gesto. El círculo se sostiene cuando cada quien aporta y nadie extrae de más.",
+      "lecciones": [
+        {
+          "id": "5-1",
+          "titulo": "La plaza y el juego",
+          "palabras": [
+            "batey",
+            "batu",
+            "yukayeke"
+          ]
+        },
+        {
+          "id": "5-2",
+          "titulo": "Areíto, luna y alianza",
+          "palabras": [
+            "cemi",
+            "areito",
+            "karaya",
+            "tequina",
+            "mayohuacan",
+            "guamo",
+            "guaitiao",
+            "cohoba"
+          ]
+        },
+        {
+          "id": "5-3",
+          "titulo": "El hogar de la isla",
+          "palabras": [
+            "hamaca",
+            "canoa",
+            "casabe",
+            "kiskeya",
+            "bohio",
+            "imake",
+            "barbacoa",
+            "asuku",
+            "ajani",
+            "amina"
+          ]
+        }
+      ]
+    }
+  ]
+}

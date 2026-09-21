@@ -1,0 +1,406 @@
+{
+  "tau": {
+    "pista": "Escribe el saludo: hola",
+    "modelo": "Tau.",
+    "es": "Hola. Te veo y te honro.",
+    "tokens": [
+      "Tau"
+    ],
+    "distractores": [
+      "Jajóm",
+      "Daka"
+    ]
+  },
+  "jajom": {
+    "pista": "Escribe el agradecimiento",
+    "modelo": "Jajóm.",
+    "es": "Gracias. Recibo con alegría.",
+    "tokens": [
+      "Jajóm"
+    ],
+    "distractores": [
+      "Tau",
+      "Taiway"
+    ]
+  },
+  "daka": {
+    "pista": "Preséntate: Tau, tu nombre, daka",
+    "modelo": "Tau, Maireni daka, guáka boití.",
+    "es": "Hola. Soy Maireni. Nuestra fuerza de resguardo.",
+    "tokens": [
+      "Tau",
+      "Maireni",
+      "daka",
+      "guáka",
+      "boití"
+    ],
+    "distractores": [
+      "Turi",
+      "Waribo"
+    ],
+    "presentar": "yo"
+  },
+  "turi": {
+    "pista": "Nombra al otro: su nombre y turi",
+    "modelo": "Guacanagarí turi.",
+    "es": "Tú eres Guacanagarí.",
+    "tokens": [
+      "Guacanagarí",
+      "turi"
+    ],
+    "distractores": [
+      "Daka",
+      "Jajóm"
+    ],
+    "presentar": "tu"
+  },
+  "taiway": {
+    "pista": "Escribe el saludo del día que llega",
+    "modelo": "Taiway.",
+    "es": "Buen día. El sol que abre.",
+    "tokens": [
+      "Taiway"
+    ],
+    "distractores": [
+      "Tau",
+      "Jajóm"
+    ]
+  },
+  "manati": {
+    "pista": "Escribe el nombre de la hermana del agua",
+    "modelo": "Tau, manatí.",
+    "es": "Hola, hermana del agua.",
+    "tokens": [
+      "Tau",
+      "manatí"
+    ],
+    "distractores": [
+      "Carey",
+      "Canoa"
+    ]
+  },
+  "carey": {
+    "pista": "Escribe el nombre de la viajera del mar",
+    "modelo": "Tau, carey.",
+    "es": "Hola, viajera del mar.",
+    "tokens": [
+      "Tau",
+      "carey"
+    ],
+    "distractores": [
+      "Manatí",
+      "Iguana"
+    ]
+  },
+  "guani": {
+    "pista": "Escribe el nombre del colibrí",
+    "modelo": "Tau, guaní.",
+    "es": "Hola, mensajero del néctar.",
+    "tokens": [
+      "Tau",
+      "guaní"
+    ],
+    "distractores": [
+      "Cigua",
+      "Rosa"
+    ]
+  },
+  "cigua": {
+    "pista": "Escribe el nombre del pájaro de la palma",
+    "modelo": "Tau, cigua.",
+    "es": "Hola, pájaro de la palma.",
+    "tokens": [
+      "Tau",
+      "cigua"
+    ],
+    "distractores": [
+      "Guaní",
+      "Jutía"
+    ]
+  },
+  "jutia": {
+    "pista": "Escribe el nombre de la roedora de monte",
+    "modelo": "Tau, jutía.",
+    "es": "Hola, hermana del monte.",
+    "tokens": [
+      "Tau",
+      "jutía"
+    ],
+    "distractores": [
+      "Iguana",
+      "Cigua"
+    ]
+  },
+  "iguana": {
+    "pista": "Escribe el nombre de la guardiana de las ramas",
+    "modelo": "Tau, iguana.",
+    "es": "Hola, guardiana de las ramas.",
+    "tokens": [
+      "Tau",
+      "iguana"
+    ],
+    "distractores": [
+      "Jutía",
+      "Carey"
+    ]
+  },
+  "ceiba": {
+    "pista": "Escribe el árbol que une cielo y raíz",
+    "modelo": "Jajóm, ceiba.",
+    "es": "Gracias, árbol que une cielo y raíz.",
+    "tokens": [
+      "Jajóm",
+      "ceiba"
+    ],
+    "distractores": [
+      "Caoba",
+      "Yuca"
+    ]
+  },
+  "yuca": {
+    "pista": "Escribe la raíz que alimenta",
+    "modelo": "Jajóm, yuca.",
+    "es": "Gracias, raíz que alimenta.",
+    "tokens": [
+      "Jajóm",
+      "yuca"
+    ],
+    "distractores": [
+      "Casabe",
+      "Ceiba"
+    ]
+  },
+  "caoba": {
+    "pista": "Escribe el árbol de sombra roja",
+    "modelo": "Jajóm, caoba.",
+    "es": "Gracias, madera de sombra roja.",
+    "tokens": [
+      "Jajóm",
+      "caoba"
+    ],
+    "distractores": [
+      "Guayacán",
+      "Ceiba"
+    ]
+  },
+  "guayacan": {
+    "pista": "Escribe el palo santo de costa",
+    "modelo": "Jajóm, guayacán.",
+    "es": "Gracias, palo santo de costa.",
+    "tokens": [
+      "Jajóm",
+      "guayacán"
+    ],
+    "distractores": [
+      "Caoba",
+      "Mangle"
+    ]
+  },
+  "mangle": {
+    "pista": "Escribe la raíz que entra al agua",
+    "modelo": "Jajóm, mangle.",
+    "es": "Gracias, raíz que entra al agua.",
+    "tokens": [
+      "Jajóm",
+      "mangle"
+    ],
+    "distractores": [
+      "Yuca",
+      "Canoa"
+    ]
+  },
+  "guazabara": {
+    "pista": "Escribe el cactus de orilla",
+    "modelo": "Jajóm, guazábara.",
+    "es": "Gracias, cactus que guarda la orilla.",
+    "tokens": [
+      "Jajóm",
+      "guazábara"
+    ],
+    "distractores": [
+      "Yuca",
+      "Ceiba"
+    ]
+  },
+  "behique": {
+    "pista": "Escribe el nombre de quien media y escucha",
+    "modelo": "Turi behique.",
+    "es": "Tú eres behique: mediador de la aldea.",
+    "tokens": [
+      "Turi",
+      "behique"
+    ],
+    "distractores": [
+      "Cemí",
+      "Opía"
+    ]
+  },
+  "boiti": {
+    "pista": "Escribe nuestra fuerza de resguardo",
+    "modelo": "Guáka boití.",
+    "es": "Nuestra guardiana. Lo nuestro es boití.",
+    "tokens": [
+      "Guáka",
+      "boití"
+    ],
+    "distractores": [
+      "Waribo",
+      "Daka"
+    ]
+  },
+  "waribo": {
+    "pista": "Escribe «soy waribo» como en las crónicas",
+    "modelo": "Waribo daka.",
+    "es": "Soy waribo: combatiente en el campo.",
+    "tokens": [
+      "Waribo",
+      "daka"
+    ],
+    "distractores": [
+      "Boití",
+      "Taino-tí"
+    ]
+  },
+  "taino-ti": {
+    "pista": "Escribe la bendición del espíritu bueno",
+    "modelo": "Taino-tí.",
+    "es": "Que el gran espíritu bueno esté contigo.",
+    "tokens": [
+      "Taino-tí"
+    ],
+    "distractores": [
+      "Tau",
+      "Jajóm"
+    ]
+  },
+  "opia": {
+    "pista": "Escribe el espíritu de quien partió",
+    "modelo": "Jajóm, opía.",
+    "es": "Gracias, espíritu de quien partió.",
+    "tokens": [
+      "Jajóm",
+      "opía"
+    ],
+    "distractores": [
+      "Cemí",
+      "Boití"
+    ]
+  },
+  "batey": {
+    "pista": "Escribe el nombre de la plaza del pueblo",
+    "modelo": "Daka batey.",
+    "es": "Estoy en el batey: el círculo del pueblo.",
+    "tokens": [
+      "Daka",
+      "batey"
+    ],
+    "distractores": [
+      "Batú",
+      "Areíto"
+    ]
+  },
+  "batu": {
+    "pista": "Escribe el nombre del juego de pelota",
+    "modelo": "Daka batú.",
+    "es": "Juego batú en el círculo.",
+    "tokens": [
+      "Daka",
+      "batú"
+    ],
+    "distractores": [
+      "Batey",
+      "Hamaca"
+    ]
+  },
+  "cemi": {
+    "pista": "Escribe el nombre de la presencia sagrada",
+    "modelo": "Jajóm, cemí.",
+    "es": "Gracias, presencia sagrada.",
+    "tokens": [
+      "Jajóm",
+      "cemí"
+    ],
+    "distractores": [
+      "Cohoba",
+      "Behique"
+    ]
+  },
+  "cohoba": {
+    "pista": "Escribe el nombre del umbral sagrado (sin receta)",
+    "modelo": "Jajóm, cohoba.",
+    "es": "Respeto a la cohoba: umbral, no juego.",
+    "tokens": [
+      "Jajóm",
+      "cohoba"
+    ],
+    "distractores": [
+      "Cemí",
+      "Casabe"
+    ]
+  },
+  "areito": {
+    "pista": "Escribe el nombre del canto-danza de memoria",
+    "modelo": "Daka areíto.",
+    "es": "Entro al areíto: el único género de danza que las crónicas nombran.",
+    "tokens": [
+      "Daka",
+      "areíto"
+    ],
+    "distractores": [
+      "Batú",
+      "Taiway"
+    ]
+  },
+  "hamaca": {
+    "pista": "Escribe el tejido que meces",
+    "modelo": "Daka hamaca.",
+    "es": "Descanso en la hamaca.",
+    "tokens": [
+      "Daka",
+      "hamaca"
+    ],
+    "distractores": [
+      "Canoa",
+      "Casabe"
+    ]
+  },
+  "canoa": {
+    "pista": "Escribe el vientre que cruza el agua",
+    "modelo": "Daka canoa.",
+    "es": "Voy en canoa.",
+    "tokens": [
+      "Daka",
+      "canoa"
+    ],
+    "distractores": [
+      "Hamaca",
+      "Manatí"
+    ]
+  },
+  "casabe": {
+    "pista": "Escribe el pan del conuco",
+    "modelo": "Jajóm, casabe.",
+    "es": "Gracias por el casabe: pan de la yuca.",
+    "tokens": [
+      "Jajóm",
+      "casabe"
+    ],
+    "distractores": [
+      "Yuca",
+      "Cohoba"
+    ]
+  },
+  "kiskeya": {
+    "pista": "Escribe el nombre de la isla-madre",
+    "modelo": "Daka Kiskeya.",
+    "es": "Yo pertenezco a Kiskeya.",
+    "tokens": [
+      "Daka",
+      "Kiskeya"
+    ],
+    "distractores": [
+      "Batey",
+      "Taino-tí"
+    ]
+  }
+}

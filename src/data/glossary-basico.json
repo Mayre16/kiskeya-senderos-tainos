@@ -1,0 +1,1058 @@
+[
+  {
+    "id": "takaji",
+    "palabra_taino": "Takaji",
+    "fonetica_ipa": "taˈkaxi",
+    "fonetica_intuitiva": "ta-KA-ji",
+    "clase_gramatical": "saludo",
+    "traduccion_es": "buenas tardes",
+    "modulo_didactico": "sendero-1",
+    "asset_visual": "taiway",
+    "simbolo_rupestre": "sol",
+    "fuente_tipo": "neotaino",
+    "fuente_nota": "Fórmula temporal de revival (Takahi / Takaji); no está atestiguada como saludo colonial.",
+    "significado_cultural": "Nombrar la tarde es acompañar el descenso del sol sin prisa.",
+    "pilula_sabiduria": "La tarde pide la misma presencia que el amanecer: ver al otro antes de pedirle algo.",
+    "opciones": [
+      {
+        "texto": "buenas tardes",
+        "asset": "taiway",
+        "correcta": true
+      },
+      {
+        "texto": "buenos días (buen sol)",
+        "asset": "taiway",
+        "correcta": false
+      },
+      {
+        "texto": "buenas noches (buena luna)",
+        "asset": "takaraya",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "takaraya",
+    "palabra_taino": "Takarayá",
+    "fonetica_ipa": "takaɾaˈja",
+    "fonetica_intuitiva": "ta-ka-ra-YÁ",
+    "clase_gramatical": "saludo",
+    "traduccion_es": "buenas noches; buena luna",
+    "modulo_didactico": "sendero-1",
+    "asset_visual": "domi",
+    "simbolo_rupestre": "onda",
+    "fuente_tipo": "neotaino",
+    "fuente_nota": "Revival: Takarayá / Taik carayá. No es fórmula fija de crónica.",
+    "significado_cultural": "La noche se saluda como se saluda a la luna: con cuidado, no con conquista.",
+    "pilula_sabiduria": "Desear buena luna es desear reposo al círculo, no silencio impuesto.",
+    "opciones": [
+      {
+        "texto": "buenas noches; buena luna",
+        "asset": "domi",
+        "correcta": true
+      },
+      {
+        "texto": "buenas tardes",
+        "asset": "taiway",
+        "correcta": false
+      },
+      {
+        "texto": "hola; te veo y te honro",
+        "asset": "tau",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "tai-guaio",
+    "palabra_taino": "Tai guaío",
+    "fonetica_ipa": "tai ˈɣwaio",
+    "fonetica_intuitiva": "TAI gua-Í-o",
+    "clase_gramatical": "saludo",
+    "traduccion_es": "buen amigo; buena amiga",
+    "modulo_didactico": "sendero-1",
+    "asset_visual": "turi",
+    "simbolo_rupestre": "dos-espirales",
+    "fuente_tipo": "neotaino",
+    "fuente_nota": "Compuesto de revival (tai + guaío). Uso pedagógico de cortesía.",
+    "significado_cultural": "Llamar amigo es abrir el círculo, no poseer a la persona.",
+    "pilula_sabiduria": "Tai guaío nombra compañía: el otro como extensión, no como herramienta.",
+    "opciones": [
+      {
+        "texto": "buen amigo; buena amiga",
+        "asset": "turi",
+        "correcta": true
+      },
+      {
+        "texto": "gracias; recibo con alegría",
+        "asset": "jajom",
+        "correcta": false
+      },
+      {
+        "texto": "nosotros; lo nuestro",
+        "asset": "guaka",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "aria",
+    "palabra_taino": "Aria",
+    "fonetica_ipa": "ˈaɾja",
+    "fonetica_intuitiva": "A-ria",
+    "clase_gramatical": "partícula",
+    "traduccion_es": "toma; ten; aquí tienes",
+    "modulo_didactico": "sendero-1",
+    "asset_visual": "jajom",
+    "simbolo_rupestre": "sol",
+    "fuente_tipo": "neotaino",
+    "fuente_nota": "Fórmula de ofrenda del revival; el don en crónicas se expresa más por gesto.",
+    "significado_cultural": "Ofrecer es el otro lado de jajóm: el equipo de la reciprocidad.",
+    "pilula_sabiduria": "Aria no es limosna. Es poner en las manos del otro lo que el círculo puede compartir.",
+    "opciones": [
+      {
+        "texto": "toma; ten; aquí tienes",
+        "asset": "jajom",
+        "correcta": true
+      },
+      {
+        "texto": "por favor dame",
+        "asset": "malahi",
+        "correcta": false
+      },
+      {
+        "texto": "gracias; recibo con alegría",
+        "asset": "jajom",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "malahi",
+    "palabra_taino": "Malahi busica",
+    "fonetica_ipa": "maˈlahi buˈsika",
+    "fonetica_intuitiva": "ma-LA-hi bu-SI-ca",
+    "clase_gramatical": "partícula",
+    "traduccion_es": "por favor dame",
+    "modulo_didactico": "sendero-1",
+    "asset_visual": "aito",
+    "simbolo_rupestre": "dos-espirales",
+    "fuente_tipo": "neotaino",
+    "fuente_nota": "Locución de revival (a veces maláhi). No es frase de Pané ni de Las Casas.",
+    "significado_cultural": "Pedir con malahi es pedir sin arrancar: deja al otro la libertad de dar.",
+    "pilula_sabiduria": "La cortesía protege el aito: se pide, no se toma.",
+    "opciones": [
+      {
+        "texto": "por favor dame",
+        "asset": "aito",
+        "correcta": true
+      },
+      {
+        "texto": "toma; aquí tienes",
+        "asset": "jajom",
+        "correcta": false
+      },
+      {
+        "texto": "no (rotundo)",
+        "asset": "nono",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "da",
+    "palabra_taino": "Da",
+    "fonetica_ipa": "da",
+    "fonetica_intuitiva": "DA",
+    "clase_gramatical": "pronombre",
+    "traduccion_es": "mi (posesivo)",
+    "modulo_didactico": "sendero-1",
+    "asset_visual": "daka",
+    "simbolo_rupestre": "cara",
+    "fuente_tipo": "comparativo",
+    "fuente_nota": "Prefijo posesivo da- / daka- es el más seguro en taíno clásico (Granberry; Wikipedia/Arawak: da- ‘my’).",
+    "significado_cultural": "Da imake: mi comida. El yo se pega a lo que nutre, no a lo que acapara.",
+    "pilula_sabiduria": "Decir «mi» en taíno es situar un vínculo, no un título de propiedad absoluta.",
+    "opciones": [
+      {
+        "texto": "mi (posesivo)",
+        "asset": "daka",
+        "correcta": true
+      },
+      {
+        "texto": "yo; yo soy",
+        "asset": "daka",
+        "correcta": false
+      },
+      {
+        "texto": "nosotros; lo nuestro",
+        "asset": "guaka",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "li",
+    "palabra_taino": "Li",
+    "fonetica_ipa": "li",
+    "fonetica_intuitiva": "LI",
+    "clase_gramatical": "pronombre",
+    "traduccion_es": "él",
+    "modulo_didactico": "sendero-1",
+    "asset_visual": "turi",
+    "simbolo_rupestre": "cara",
+    "fuente_tipo": "comparativo",
+    "fuente_nota": "Prefijo li- ‘his’ se reconstruye para el taíno clásico (Granberry; Arawakan).",
+    "significado_cultural": "Li nombra al hermano sin convertirlo en objeto.",
+    "pilula_sabiduria": "Él también es orilla del círculo.",
+    "opciones": [
+      {
+        "texto": "él",
+        "asset": "turi",
+        "correcta": true
+      },
+      {
+        "texto": "tú",
+        "asset": "turi",
+        "correcta": false
+      },
+      {
+        "texto": "nosotros",
+        "asset": "guaka",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "guaka",
+    "palabra_taino": "Guáka",
+    "fonetica_ipa": "ˈɡwaka",
+    "fonetica_intuitiva": "GUÁ-ka",
+    "clase_gramatical": "pronombre",
+    "traduccion_es": "nosotros; todos nosotros; lo nuestro",
+    "modulo_didactico": "sendero-1",
+    "asset_visual": "taino-ti",
+    "simbolo_rupestre": "circulo",
+    "fuente_tipo": "comparativo",
+    "fuente_nota": "Cercano al posesivo wa- ‘our’ del taíno clásico; forma Guáka es de uso vivo / revival.",
+    "significado_cultural": "Guáka es el plural del cuidado: lo que no cabe en un solo daka.",
+    "pilula_sabiduria": "Lo nuestro no es cercado: es el yukayeke que se sostiene entre todos.",
+    "opciones": [
+      {
+        "texto": "nosotros; lo nuestro",
+        "asset": "taino-ti",
+        "correcta": true
+      },
+      {
+        "texto": "yo; yo soy",
+        "asset": "daka",
+        "correcta": false
+      },
+      {
+        "texto": "tú",
+        "asset": "turi",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "nono",
+    "palabra_taino": "Nono",
+    "fonetica_ipa": "ˈnono",
+    "fonetica_intuitiva": "NO-no",
+    "clase_gramatical": "partícula",
+    "traduccion_es": "no (rotundo)",
+    "modulo_didactico": "sendero-1",
+    "asset_visual": "waribo",
+    "simbolo_rupestre": "espina",
+    "fuente_tipo": "neotaino",
+    "fuente_nota": "Partícula de revival. En clásico se documenta mejor el prefijo ma- de negación.",
+    "significado_cultural": "Hay un no que protege: límite sin humillar.",
+    "pilula_sabiduria": "Nono puede ser custodia: no extraer, no forzar, no vaciar.",
+    "opciones": [
+      {
+        "texto": "no (rotundo)",
+        "asset": "waribo",
+        "correcta": true
+      },
+      {
+        "texto": "prefijo de negación (ma-)",
+        "asset": "ma",
+        "correcta": false
+      },
+      {
+        "texto": "no sé",
+        "asset": "ita",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "ma",
+    "palabra_taino": "Ma-",
+    "fonetica_ipa": "ma",
+    "fonetica_intuitiva": "MA",
+    "clase_gramatical": "partícula",
+    "traduccion_es": "no (prefijo de negación)",
+    "modulo_didactico": "sendero-1",
+    "asset_visual": "waribo",
+    "simbolo_rupestre": "espina",
+    "fuente_tipo": "comparativo",
+    "fuente_nota": "Prefijo ma- ‘not’ está bien asentado en Arawak y en análisis de Granberry (p. ej. Macorís < ma- + ku).",
+    "significado_cultural": "Ma daka ajani: no tengo hambre. La negación vive dentro de la frase.",
+    "pilula_sabiduria": "El no-prefijo enseña que la falta también se nombra con mesura.",
+    "opciones": [
+      {
+        "texto": "no (prefijo de negación)",
+        "asset": "waribo",
+        "correcta": true
+      },
+      {
+        "texto": "no (rotundo)",
+        "asset": "nono",
+        "correcta": false
+      },
+      {
+        "texto": "no sé",
+        "asset": "ita",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "ita",
+    "palabra_taino": "Ita",
+    "fonetica_ipa": "ˈita",
+    "fonetica_intuitiva": "I-ta",
+    "clase_gramatical": "partícula",
+    "traduccion_es": "no sé",
+    "modulo_didactico": "sendero-1",
+    "asset_visual": "behique",
+    "simbolo_rupestre": "cara",
+    "fuente_tipo": "neotaino",
+    "fuente_nota": "Uso pedagógico de revival. El no-saber también es parte de la cortesía.",
+    "significado_cultural": "Ita deja espacio: no inventar lo que el círculo aún no ha dicho.",
+    "pilula_sabiduria": "Decir «no sé» es una forma de respeto al misterio y al otro.",
+    "opciones": [
+      {
+        "texto": "no sé",
+        "asset": "behique",
+        "correcta": true
+      },
+      {
+        "texto": "no (rotundo)",
+        "asset": "nono",
+        "correcta": false
+      },
+      {
+        "texto": "aprender; escuchar",
+        "asset": "akie",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "nitaino",
+    "palabra_taino": "Nitaíno",
+    "fonetica_ipa": "niˈtaino",
+    "fonetica_intuitiva": "ni-TAI-no",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "nitaíno; nobleza, consejero del cacique",
+    "modulo_didactico": "sendero-4",
+    "asset_visual": "cacique",
+    "simbolo_rupestre": "cara",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Documentado en crónicas como estrato de la élite que secundaba al cacique.",
+    "significado_cultural": "El nitaíno aconseja y defiende el yukayeke; no es dueño de la gente.",
+    "pilula_sabiduria": "Secundar al cacique es cargar el equilibrio, no el privilegio vacío.",
+    "opciones": [
+      {
+        "texto": "nitaíno; nobleza, consejero del cacique",
+        "asset": "cacique",
+        "correcta": true
+      },
+      {
+        "texto": "naboria; gente del trabajo común",
+        "asset": "naboria",
+        "correcta": false
+      },
+      {
+        "texto": "cacique; guía del pueblo",
+        "asset": "cacique",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "baracoa",
+    "palabra_taino": "Báracoa",
+    "fonetica_ipa": "baɾaˈkoa",
+    "fonetica_intuitiva": "bá-ra-CO-a",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "guerra; combate armado",
+    "modulo_didactico": "sendero-4",
+    "asset_visual": "macana",
+    "simbolo_rupestre": "espina",
+    "fuente_tipo": "comparativo",
+    "fuente_nota": "Relacionado con el topónimo Baracoa y con usos de revival para combate; no confundir con barbacoa (parrilla).",
+    "significado_cultural": "La báracoa es el último recurso del círculo, no su oficio cotidiano.",
+    "pilula_sabiduria": "Nombrar la guerra es recordar que la macana pide waribo, no gana ciega.",
+    "opciones": [
+      {
+        "texto": "guerra; combate armado",
+        "asset": "macana",
+        "correcta": true
+      },
+      {
+        "texto": "barbacoa; parrilla elevada",
+        "asset": "barbacoa",
+        "correcta": false
+      },
+      {
+        "texto": "guerrero de campo",
+        "asset": "waribo",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "cayo",
+    "palabra_taino": "Cayo",
+    "fonetica_ipa": "ˈkajo",
+    "fonetica_intuitiva": "CA-yo",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "cayo; islote o arrecife",
+    "modulo_didactico": "sendero-3",
+    "asset_visual": "bagua",
+    "simbolo_rupestre": "onda",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Indigenismo antillano pasado al español y al inglés (cay).",
+    "significado_cultural": "El cayo es tierra mínima: arena, coral y nido.",
+    "pilula_sabiduria": "Un cayo no se rellena ni se vende: se deja ser orilla.",
+    "opciones": [
+      {
+        "texto": "cayo; islote o arrecife",
+        "asset": "bagua",
+        "correcta": true
+      },
+      {
+        "texto": "sabana; llanura abierta",
+        "asset": "sabana",
+        "correcta": false
+      },
+      {
+        "texto": "mangle; raíz que entra al agua",
+        "asset": "mangle",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "sabana",
+    "palabra_taino": "Sabana",
+    "fonetica_ipa": "saˈβana",
+    "fonetica_intuitiva": "sa-BA-na",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "sabana; llanura de pastos",
+    "modulo_didactico": "sendero-3",
+    "asset_visual": "conuco",
+    "simbolo_rupestre": "onda",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Indigenismo taíno universalizado (savanna).",
+    "significado_cultural": "La sabana es el respiro del bosque: no todo debe ser dosel.",
+    "pilula_sabiduria": "Hay tierras que se cuidan dejándolas abiertas.",
+    "opciones": [
+      {
+        "texto": "sabana; llanura de pastos",
+        "asset": "conuco",
+        "correcta": true
+      },
+      {
+        "texto": "cayo; islote o arrecife",
+        "asset": "bagua",
+        "correcta": false
+      },
+      {
+        "texto": "conuco; parcela que alimenta",
+        "asset": "conuco",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "barbacoa",
+    "palabra_taino": "Barbacoa",
+    "fonetica_ipa": "baɾβaˈkoa",
+    "fonetica_intuitiva": "bar-ba-CO-a",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "barbacoa; parrilla elevada para asar o secar",
+    "modulo_didactico": "sendero-5",
+    "asset_visual": "casabe",
+    "simbolo_rupestre": "circulo",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Indigenismo clásico (barbecue). Estructura de varas, no el grill moderno.",
+    "significado_cultural": "La barbacoa es técnica de conservar: fuego, altura, paciencia.",
+    "pilula_sabiduria": "Asar en alto es no desperdiciar lo que el agua o el conuco dio.",
+    "opciones": [
+      {
+        "texto": "barbacoa; parrilla elevada para asar o secar",
+        "asset": "casabe",
+        "correcta": true
+      },
+      {
+        "texto": "guerra; combate armado",
+        "asset": "macana",
+        "correcta": false
+      },
+      {
+        "texto": "casabe; pan del conuco",
+        "asset": "casabe",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "akie",
+    "palabra_taino": "Akié",
+    "fonetica_ipa": "aˈkie",
+    "fonetica_intuitiva": "a-KIÉ",
+    "clase_gramatical": "verbo",
+    "traduccion_es": "aprender; estudiar; escuchar con atención",
+    "modulo_didactico": "sendero-5",
+    "asset_visual": "behique",
+    "simbolo_rupestre": "espiral",
+    "fuente_tipo": "neotaino",
+    "fuente_nota": "Verbo de revival (Akié / Akiey). El taíno clásico dejó pocos verbos escritos.",
+    "significado_cultural": "Aprender es escuchar antes de hablar: akié precede a achéka.",
+    "pilula_sabiduria": "Esta app es un akié: la lengua se encarna usándola, no coleccionándola.",
+    "opciones": [
+      {
+        "texto": "aprender; escuchar con atención",
+        "asset": "behique",
+        "correcta": true
+      },
+      {
+        "texto": "hablar; pronunciar",
+        "asset": "acheka",
+        "correcta": false
+      },
+      {
+        "texto": "despertar; estar alerta",
+        "asset": "areya",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "acheka",
+    "palabra_taino": "Achéka",
+    "fonetica_ipa": "aˈtʃeka",
+    "fonetica_intuitiva": "a-CHÉ-ka",
+    "clase_gramatical": "verbo",
+    "traduccion_es": "hablar; pronunciar",
+    "modulo_didactico": "sendero-5",
+    "asset_visual": "tau",
+    "simbolo_rupestre": "espiral",
+    "fuente_tipo": "neotaino",
+    "fuente_nota": "Verbo de revival. En clásico casi no hay paradigmas verbales completos.",
+    "significado_cultural": "Hablar es poner el cuerpo en la palabra.",
+    "pilula_sabiduria": "Achéka pide akié: no se pronuncia para vaciar, se pronuncia para vincular.",
+    "opciones": [
+      {
+        "texto": "hablar; pronunciar",
+        "asset": "tau",
+        "correcta": true
+      },
+      {
+        "texto": "aprender; escuchar",
+        "asset": "akie",
+        "correcta": false
+      },
+      {
+        "texto": "despertar",
+        "asset": "areya",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "teitoca",
+    "palabra_taino": "Tei-toca",
+    "fonetica_ipa": "teiˈtoka",
+    "fonetica_intuitiva": "tei-TO-ca",
+    "clase_gramatical": "verbo",
+    "traduccion_es": "quedarse quieto; descansar; estar en calma",
+    "modulo_didactico": "sendero-5",
+    "asset_visual": "domi",
+    "simbolo_rupestre": "onda",
+    "fuente_tipo": "neotaino",
+    "fuente_nota": "Locución de revival para la calma corporal.",
+    "significado_cultural": "La quietud es una postura, no una pereza.",
+    "pilula_sabiduria": "Tei-toca es pariente de la pausa de silencio: el círculo también se cuida deteniéndose.",
+    "opciones": [
+      {
+        "texto": "quedarse quieto; estar en calma",
+        "asset": "domi",
+        "correcta": true
+      },
+      {
+        "texto": "dormir",
+        "asset": "domi",
+        "correcta": false
+      },
+      {
+        "texto": "levantarse",
+        "asset": "ira",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "areya",
+    "palabra_taino": "Areyá",
+    "fonetica_ipa": "aɾeˈja",
+    "fonetica_intuitiva": "a-re-YÁ",
+    "clase_gramatical": "verbo",
+    "traduccion_es": "despertar; estar alerta",
+    "modulo_didactico": "sendero-5",
+    "asset_visual": "taiway",
+    "simbolo_rupestre": "sol",
+    "fuente_tipo": "neotaino",
+    "fuente_nota": "Verbo de revival; no confundir con areíto (ceremonia).",
+    "significado_cultural": "Despertar es volver al batey del día.",
+    "pilula_sabiduria": "Areyá no es alarma: es atención suave al sol que abre.",
+    "opciones": [
+      {
+        "texto": "despertar; estar alerta",
+        "asset": "taiway",
+        "correcta": true
+      },
+      {
+        "texto": "areíto; canto en rueda",
+        "asset": "areito",
+        "correcta": false
+      },
+      {
+        "texto": "dormir",
+        "asset": "domi",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "ira",
+    "palabra_taino": "Irá",
+    "fonetica_ipa": "iˈɾa",
+    "fonetica_intuitiva": "i-RÁ",
+    "clase_gramatical": "verbo",
+    "traduccion_es": "levantarse; ponerse de pie",
+    "modulo_didactico": "sendero-5",
+    "asset_visual": "daka",
+    "simbolo_rupestre": "cara",
+    "fuente_tipo": "neotaino",
+    "fuente_nota": "Verbo de revival para el gesto de alzarse.",
+    "significado_cultural": "Levantarse es volver a ofrecer el cuerpo al trabajo o al saludo.",
+    "pilula_sabiduria": "Irá después de dòmí: el ritmo de la hamaca y de la boria.",
+    "opciones": [
+      {
+        "texto": "levantarse; ponerse de pie",
+        "asset": "daka",
+        "correcta": true
+      },
+      {
+        "texto": "despertar",
+        "asset": "areya",
+        "correcta": false
+      },
+      {
+        "texto": "quedarse quieto",
+        "asset": "teitoca",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "charly",
+    "palabra_taino": "Charly",
+    "fonetica_ipa": "ˈtʃarli",
+    "fonetica_intuitiva": "CHAR-ly",
+    "clase_gramatical": "verbo",
+    "traduccion_es": "estar contento; sentir alegría",
+    "modulo_didactico": "sendero-1",
+    "asset_visual": "jajom",
+    "simbolo_rupestre": "sol",
+    "fuente_tipo": "neotaino",
+    "fuente_nota": "Forma de revival; grafía moderna. No es voz de crónica.",
+    "significado_cultural": "La alegría también se nombra: el círculo se alegra sin vaciar al otro.",
+    "pilula_sabiduria": "Charly es fiesta pequeña: un jajóm que se queda en el cuerpo.",
+    "opciones": [
+      {
+        "texto": "estar contento; sentir alegría",
+        "asset": "jajom",
+        "correcta": true
+      },
+      {
+        "texto": "amor; afecto profundo",
+        "asset": "banya",
+        "correcta": false
+      },
+      {
+        "texto": "dolor",
+        "asset": "baju",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "banya",
+    "palabra_taino": "Banyá",
+    "fonetica_ipa": "banˈja",
+    "fonetica_intuitiva": "ban-YÁ",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "amor; afecto profundo",
+    "modulo_didactico": "sendero-1",
+    "asset_visual": "aito",
+    "simbolo_rupestre": "dos-espirales",
+    "fuente_tipo": "neotaino",
+    "fuente_nota": "Voz de revival para el afecto. El clásico no dejó un lexema único de «amor».",
+    "significado_cultural": "Banyá es cuidado que no posee.",
+    "pilula_sabiduria": "El afecto profundo se parece al aito: se da y se recibe sin vaciar.",
+    "opciones": [
+      {
+        "texto": "amor; afecto profundo",
+        "asset": "aito",
+        "correcta": true
+      },
+      {
+        "texto": "alegría",
+        "asset": "charly",
+        "correcta": false
+      },
+      {
+        "texto": "reciprocidad",
+        "asset": "aito",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "ajani",
+    "palabra_taino": "Ajani",
+    "fonetica_ipa": "aˈxani",
+    "fonetica_intuitiva": "a-JA-ni",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "hambre",
+    "modulo_didactico": "sendero-5",
+    "asset_visual": "yuca",
+    "simbolo_rupestre": "raiz",
+    "fuente_tipo": "neotaino",
+    "fuente_nota": "Uso de revival. Frase pedagógica: ma daka ajani = no tengo hambre.",
+    "significado_cultural": "Nombrar el hambre es pedir al conuco, no al saqueo.",
+    "pilula_sabiduria": "Ajani recuerda que el casabe es pacto: se parte, no se acapara.",
+    "opciones": [
+      {
+        "texto": "hambre",
+        "asset": "yuca",
+        "correcta": true
+      },
+      {
+        "texto": "sed",
+        "asset": "bagua",
+        "correcta": false
+      },
+      {
+        "texto": "comida",
+        "asset": "imake",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "amina",
+    "palabra_taino": "Amina",
+    "fonetica_ipa": "aˈmina",
+    "fonetica_intuitiva": "a-MI-na",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "sed",
+    "modulo_didactico": "sendero-5",
+    "asset_visual": "bagua",
+    "simbolo_rupestre": "onda",
+    "fuente_tipo": "neotaino",
+    "fuente_nota": "Uso de revival para la sed.",
+    "significado_cultural": "La sed apunta al río y a Atabey, no a la botella de quita y pon.",
+    "pilula_sabiduria": "Amina enseña que el agua es madre, no mercancía.",
+    "opciones": [
+      {
+        "texto": "sed",
+        "asset": "bagua",
+        "correcta": true
+      },
+      {
+        "texto": "hambre",
+        "asset": "yuca",
+        "correcta": false
+      },
+      {
+        "texto": "mar; agua grande",
+        "asset": "bagua",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "baju",
+    "palabra_taino": "Bajú",
+    "fonetica_ipa": "baˈxu",
+    "fonetica_intuitiva": "ba-JÚ",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "dolor; doler",
+    "modulo_didactico": "sendero-4",
+    "asset_visual": "behique",
+    "simbolo_rupestre": "cara",
+    "fuente_tipo": "neotaino",
+    "fuente_nota": "Revival (ej. ijó bajú = dolor de cabeza). El clásico describe el mal por el behique, no con este lexema fijo.",
+    "significado_cultural": "Nombrar el dolor es el primer paso de la cura comunitaria.",
+    "pilula_sabiduria": "Bajú se lleva al behique, no se calla hasta romperse.",
+    "opciones": [
+      {
+        "texto": "dolor; doler",
+        "asset": "behique",
+        "correcta": true
+      },
+      {
+        "texto": "hambre",
+        "asset": "ajani",
+        "correcta": false
+      },
+      {
+        "texto": "alegría",
+        "asset": "charly",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "imake",
+    "palabra_taino": "Imake",
+    "fonetica_ipa": "iˈmake",
+    "fonetica_intuitiva": "i-MA-ke",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "comida; alimento",
+    "modulo_didactico": "sendero-5",
+    "asset_visual": "casabe",
+    "simbolo_rupestre": "circulo",
+    "fuente_tipo": "neotaino",
+    "fuente_nota": "Voz de revival para «comida». En clásico se nombran yuca, casabe, maíz, no un hiperónimo único seguro.",
+    "significado_cultural": "Imake yeksi / aleta / abey: el día se come en tres pactos.",
+    "pilula_sabiduria": "Da imake: mi comida. El alimento es vínculo, no botín.",
+    "opciones": [
+      {
+        "texto": "comida; alimento",
+        "asset": "casabe",
+        "correcta": true
+      },
+      {
+        "texto": "hambre",
+        "asset": "ajani",
+        "correcta": false
+      },
+      {
+        "texto": "casabe; pan del conuco",
+        "asset": "casabe",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "mani",
+    "palabra_taino": "Maní",
+    "fonetica_ipa": "maˈni",
+    "fonetica_intuitiva": "ma-NÍ",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "maní; semilla del conuco",
+    "modulo_didactico": "sendero-3",
+    "asset_visual": "maiz",
+    "simbolo_rupestre": "raiz",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Indigenismo antillano vivo en el español caribeño.",
+    "significado_cultural": "El maní viaja en el puño y en la siembra.",
+    "pilula_sabiduria": "Otra semilla del conuco: diversidad, no una sola raíz.",
+    "opciones": [
+      {
+        "texto": "maní; semilla del conuco",
+        "asset": "maiz",
+        "correcta": true
+      },
+      {
+        "texto": "maíz; grano del conuco",
+        "asset": "maiz",
+        "correcta": false
+      },
+      {
+        "texto": "guayaba; fruta dulce",
+        "asset": "guayaba",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "guayaba",
+    "palabra_taino": "Guayaba",
+    "fonetica_ipa": "ɡwaˈʝaba",
+    "fonetica_intuitiva": "gua-YA-ba",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "guayaba; fruta dulce y aromática",
+    "modulo_didactico": "sendero-3",
+    "asset_visual": "rosa",
+    "simbolo_rupestre": "sol",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Indigenismo taíno (guava).",
+    "significado_cultural": "La guayaba es don del monte y del patio.",
+    "pilula_sabiduria": "Tomar fruta es jajóm a la mata, no arrancar el árbol.",
+    "opciones": [
+      {
+        "texto": "guayaba; fruta dulce y aromática",
+        "asset": "rosa",
+        "correcta": true
+      },
+      {
+        "texto": "maní; semilla del conuco",
+        "asset": "maiz",
+        "correcta": false
+      },
+      {
+        "texto": "ají; fruto que pica",
+        "asset": "aji",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "kameka",
+    "palabra_taino": "Kameka",
+    "fonetica_ipa": "kaˈmeka",
+    "fonetica_intuitiva": "ka-ME-ka",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "pescado",
+    "modulo_didactico": "sendero-2",
+    "asset_visual": "carey",
+    "simbolo_rupestre": "onda",
+    "fuente_tipo": "neotaino",
+    "fuente_nota": "Voz de revival para pez / pescado. El clásico dejó más el verbo de pescar en descripción que este lexema.",
+    "significado_cultural": "Kameka pide red y respeto a la bagua: no vaciar el vivero.",
+    "pilula_sabiduria": "El pescado de la barbacoa nació en un mangle que alguien no cortó.",
+    "opciones": [
+      {
+        "texto": "pescado",
+        "asset": "carey",
+        "correcta": true
+      },
+      {
+        "texto": "huevo",
+        "asset": "asuku",
+        "correcta": false
+      },
+      {
+        "texto": "carey; viajera del mar",
+        "asset": "carey",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "asuku",
+    "palabra_taino": "Asúku",
+    "fonetica_ipa": "aˈsuku",
+    "fonetica_intuitiva": "a-SÚ-ku",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "huevo",
+    "modulo_didactico": "sendero-5",
+    "asset_visual": "casabe",
+    "simbolo_rupestre": "circulo",
+    "fuente_tipo": "neotaino",
+    "fuente_nota": "Voz de revival para huevo.",
+    "significado_cultural": "Asúku es promesa de vida: se toma con mesura.",
+    "pilula_sabiduria": "No se vacía el nido por un desayuno.",
+    "opciones": [
+      {
+        "texto": "huevo",
+        "asset": "casabe",
+        "correcta": true
+      },
+      {
+        "texto": "pescado",
+        "asset": "kameka",
+        "correcta": false
+      },
+      {
+        "texto": "comida",
+        "asset": "imake",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "taiguey",
+    "palabra_taino": "TaiGuey",
+    "fonetica_ipa": "taiˈɣwei",
+    "fonetica_intuitiva": "tai-GUEY",
+    "clase_gramatical": "saludo",
+    "traduccion_es": "buen sol; buenos días",
+    "modulo_didactico": "sendero-1",
+    "asset_visual": "taiguey",
+    "simbolo_rupestre": "sol",
+    "fuente_tipo": "neotaino",
+    "fuente_nota": "Compuesto pedagógico: tai (bueno) + guey (sol, comparado arahuaco). No es fórmula colonial; se usa de día, junto al sol.",
+    "significado_cultural": "Saludar el sol es recibir el día sin poseerlo.",
+    "pilula_sabiduria": "TaiGuey se dice cuando el astro está alto: el cuerpo entra al batey con luz.",
+    "opciones": [
+      {
+        "texto": "buen sol; buenos días",
+        "asset": "taiguey",
+        "correcta": true
+      },
+      {
+        "texto": "buena luna; buenas noches",
+        "asset": "taikaraye",
+        "correcta": false
+      },
+      {
+        "texto": "hola; te veo y te honro",
+        "asset": "tau",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "taikaraye",
+    "palabra_taino": "TaiKarayá",
+    "fonetica_ipa": "taikaɾaˈja",
+    "fonetica_intuitiva": "tai-ka-ra-YÁ",
+    "clase_gramatical": "saludo",
+    "traduccion_es": "buena luna; buenas noches",
+    "modulo_didactico": "sendero-1",
+    "asset_visual": "taikaraye",
+    "simbolo_rupestre": "onda",
+    "fuente_tipo": "neotaino",
+    "fuente_nota": "Compuesto pedagógico: tai (bueno) + Karaya (luna viva). No es glosa de crónica; se usa de noche, junto a la luna.",
+    "significado_cultural": "Desear buena luna es desear reposo al círculo.",
+    "pilula_sabiduria": "TaiKarayá se dice cuando baja el sol: la noche también se saluda.",
+    "opciones": [
+      {
+        "texto": "buena luna; buenas noches",
+        "asset": "taikaraye",
+        "correcta": true
+      },
+      {
+        "texto": "buen sol; buenos días",
+        "asset": "taiguey",
+        "correcta": false
+      },
+      {
+        "texto": "buenas tardes",
+        "asset": "taiway",
+        "correcta": false
+      }
+    ]
+  }
+]

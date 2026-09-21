@@ -1,0 +1,99 @@
+{
+  "aviso": "No existe un diccionario colonial completo del taíno clásico. La lengua se reconstruye a partir de crónicas, topónimos, indigenismos del español antillano y comparación arahuaca. El léxico de revival (Hiwatahia y compilaciones comunitarias) se marca en esta app como neotaíno.",
+  "clasico": [
+    {
+      "id": "granberry-2004",
+      "titulo": "Languages of the Pre-Columbian Antilles",
+      "autores": "Julian Granberry y Gary S. Vescelius",
+      "anio": 2004,
+      "editorial": "University of Alabama Press",
+      "lugar": "Tuscaloosa",
+      "capitulo": "Capítulo 10, «A Short Lexicon of Taíno Morphemes and Lexical Forms», pp. 100–122 (tablas 11–12)",
+      "por_que": "Es el léxico académico más citado del taíno clásico: morfemas (prefijos da-, li-, wa-, ma-) y formas léxicas reconstruidas con método arahuaco. No es un diccionario conversacional completo.",
+      "acceso": "https://muse.jhu.edu/book/6861"
+    },
+    {
+      "id": "tejera-1935",
+      "titulo": "Palabras indígenas de la isla de Santo Domingo",
+      "autores": "Emiliano Tejera (prólogo de Pedro Henríquez Ureña)",
+      "anio": "1933 / 1935",
+      "editorial": "Edición dominicana",
+      "lugar": "Santo Domingo",
+      "capitulo": "Léxico de indigenismos vivos y documentados en la isla",
+      "por_que": "Base isleña para voces como hamaca, canoa, batey, cacique, yuca, casabe, huracán, cayo, sabana, manatí, iguana, mangle, ceiba, caoba, maní, guayaba, barbacoa.",
+      "acceso": "Buscar en Internet Archive o en la Biblioteca Nacional Pedro Henríquez Ureña."
+    },
+    {
+      "id": "henriquez-1938",
+      "titulo": "Para la historia de los indigenismos",
+      "autores": "Pedro Henríquez Ureña",
+      "anio": 1938,
+      "editorial": "Universidad de Buenos Aires / Instituto de Filología",
+      "lugar": "Buenos Aires",
+      "capitulo": "Ensayo sobre el paso de voces taínas al español",
+      "por_que": "Filología clásica del Caribe hispánico: cómo se fijaron las grafías y los sentidos de los indigenismos.",
+      "acceso": "Reimpresiones en obras completas de PHU."
+    },
+    {
+      "id": "pane-arrom",
+      "titulo": "Relación acerca de las antigüedades de los indios",
+      "autores": "Fray Ramón Pané (ed. crítica de José Juan Arrom)",
+      "anio": "c. 1498 / ed. 1974–1999",
+      "editorial": "Siglo XXI / otras eds. críticas",
+      "lugar": "México / Santo Domingo",
+      "capitulo": "Mitología, cemíes, behique, cohoba, Atabey y Yúcahu",
+      "por_que": "Fuente primaria más cercana a la cosmología taína de Kiskeya: Atabey y sus cinco nombres, Yúcahu, cohoba y cemíes. No es un diccionario: es relato ritual.",
+      "acceso": "Edición Arrom (recomendadísima frente a copias sueltas en la red)."
+    },
+    {
+      "id": "casas-oviedo",
+      "titulo": "Apologética historia sumaria / Historia general y natural de las Indias",
+      "autores": "Bartolomé de las Casas; Gonzalo Fernández de Oviedo",
+      "anio": "s. XVI",
+      "editorial": "Crónicas de Indias",
+      "lugar": "Antillas",
+      "capitulo": "Areíto y tequina, mayohuacán, guamo, guaitiao, bohío, caney, duho, nitaíno, naboria, batú",
+      "por_que": "Testimonio colonial de cultura material y del único género de danza nombrado: el areíto. Las glosas españolas hay que leerlas con cuidado (filtro europeo).",
+      "acceso": "Ediciones críticas; Biblioteca de Autores Españoles."
+    }
+  ],
+  "apoyo": [
+    {
+      "id": "friederici-1960",
+      "titulo": "Amerikanistisches Wörterbuch und Hilfswörterbuch für den Amerikanisten",
+      "autores": "Georg Friederici",
+      "anio": "1947 / 1960",
+      "por_que": "Diccionario de americanismos de contacto: rastrea hamaca, canoa, huracán, barbacoa, cayo, etc. en las fuentes."
+    },
+    {
+      "id": "taylor-1977",
+      "titulo": "Languages of the West Indies",
+      "autores": "Douglas Taylor",
+      "anio": 1977,
+      "por_que": "Comparación arahuaca insular; útil para no tomar el revival como si fuera el clásico."
+    },
+    {
+      "id": "highfield",
+      "titulo": "The French Dialect of St. Thomas, U.S. Virgin Islands / trabajos sobre taíno",
+      "autores": "Arnold R. Highfield",
+      "anio": "varios",
+      "por_que": "Estudios caribeños sobre supervivencia léxica y toponimia."
+    }
+  ],
+  "revival": [
+    {
+      "id": "hiwatahia",
+      "titulo": "Hiwatahia-Taino (lengua nueva / revival)",
+      "autores": "Proyectos comunitarios de revitalización (p. ej. Hiwatahia, 2023)",
+      "anio": "s. XXI",
+      "por_que": "De aquí salen muchas fórmulas de esta lista: Tau, TaiGuey, TaiKarayá, Taiway/Taigi, Takaji, Takarayá, Jajóm, Malahi busica, Imake, Akié, Achéka, Charly, Banyá, Waribo como guerrero, Taino-tí como bendición. Son lengua viva reconstruida, no glosas de 1492."
+    },
+    {
+      "id": "karaya-viva",
+      "titulo": "Karaya / karayán (areíto lunar vivo)",
+      "autores": "Círculos Caney y de revitalización taína del Caribe",
+      "anio": "s. XX–XXI",
+      "por_que": "Karaya nombra la luna como cara de Atabey y el karayán como areíto de ciclo lunar. No es un segundo género colonial: es práctica viva sobre el areíto de las crónicas. Se marca neotaíno para no mezclarlo con Pané."
+    }
+  ]
+}

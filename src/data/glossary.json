@@ -1,0 +1,994 @@
+[
+  {
+    "id": "tau",
+    "palabra_taino": "Tau",
+    "fonetica_ipa": "tau",
+    "fonetica_intuitiva": "TAU",
+    "clase_gramatical": "saludo",
+    "traduccion_es": "hola; te veo y te honro",
+    "modulo_didactico": "sendero-1",
+    "asset_visual": "tau",
+    "simbolo_rupestre": "espiral",
+    "fuente_tipo": "neotaino",
+    "fuente_nota": "Fórmula de saludo del revival caribeño; no aparece como fórmula fija en las crónicas.",
+    "significado_cultural": "Abrir la voz es reconocer al otro como hermano de la aldea común.",
+    "pilula_sabiduria": "Para el taíno, encontrarse no es un trámite: es confirmar que el otro también pertenece al tejido de la isla.",
+    "opciones": [
+      {
+        "texto": "hola; te veo y te honro",
+        "asset": "tau",
+        "correcta": true
+      },
+      {
+        "texto": "gracias; recibo con alegría",
+        "asset": "jajom",
+        "correcta": false
+      },
+      {
+        "texto": "yo; esta voz",
+        "asset": "daka",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "jajom",
+    "palabra_taino": "Jajóm",
+    "fonetica_ipa": "haˈhom",
+    "fonetica_intuitiva": "ja-JÓM",
+    "clase_gramatical": "partícula",
+    "traduccion_es": "gracias; recibo con alegría",
+    "modulo_didactico": "sendero-1",
+    "asset_visual": "jajom",
+    "simbolo_rupestre": "sol",
+    "fuente_tipo": "neotaino",
+    "fuente_nota": "Forma de revival; el agradecimiento en crónicas se expresa más por gesto y ofrenda que por una sola voz fija.",
+    "significado_cultural": "Agradecer es devolver equilibrio: lo recibido pide cuidado, no acumulación.",
+    "pilula_sabiduria": "Jajóm no cierra un favor: abre una deuda suave de reciprocidad con quien dio y con la tierra que sostuvo el don.",
+    "opciones": [
+      {
+        "texto": "gracias; recibo con alegría",
+        "asset": "jajom",
+        "correcta": true
+      },
+      {
+        "texto": "plaza ceremonial",
+        "asset": "batey",
+        "correcta": false
+      },
+      {
+        "texto": "buenos días (voz viva)",
+        "asset": "taiway",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "daka",
+    "palabra_taino": "Daka",
+    "fonetica_ipa": "ˈdaka",
+    "fonetica_intuitiva": "DA-ka",
+    "clase_gramatical": "pronombre",
+    "traduccion_es": "yo; yo soy; tengo",
+    "modulo_didactico": "sendero-1",
+    "asset_visual": "daka",
+    "simbolo_rupestre": "cara",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Las Casas: «Juan desquivel daca», «Dios naboría daca». El nombre o el cargo va primero; daka cierra. Paralelo en lokono.",
+    "significado_cultural": "Tau, Maireni daka, guáka boití: saludo, nombre, yo-soy, y lo nuestro de resguardo.",
+    "pilula_sabiduria": "Daka no abre la frase como el yo castellano. Se nombra primero y luego se es: presencia, no imperio.",
+    "opciones": [
+      {
+        "texto": "yo; yo soy; tengo",
+        "asset": "daka",
+        "correcta": true
+      },
+      {
+        "texto": "tú; la otra orilla",
+        "asset": "turi",
+        "correcta": false
+      },
+      {
+        "texto": "espíritu de quien partió",
+        "asset": "opia",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "turi",
+    "palabra_taino": "Turi",
+    "fonetica_ipa": "ˈtuɾi",
+    "fonetica_intuitiva": "TU-ri",
+    "clase_gramatical": "pronombre",
+    "traduccion_es": "tú; la otra orilla",
+    "modulo_didactico": "sendero-1",
+    "asset_visual": "turi",
+    "simbolo_rupestre": "dos-espirales",
+    "fuente_tipo": "comparativo",
+    "fuente_nota": "Uso pedagógico del revival y correspondencias arahuacas; no es la única reconstrucción del «tú».",
+    "significado_cultural": "El tú no es objeto: es la orilla que hace posible el diálogo.",
+    "pilula_sabiduria": "Sin turi no hay tau. El saludo solo existe cuando hay alguien a quien no reducir a herramienta.",
+    "opciones": [
+      {
+        "texto": "tú; la otra orilla",
+        "asset": "turi",
+        "correcta": true
+      },
+      {
+        "texto": "yo; esta voz",
+        "asset": "daka",
+        "correcta": false
+      },
+      {
+        "texto": "bendición: que el gran espíritu bueno esté contigo",
+        "asset": "taino-ti",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "taiway",
+    "palabra_taino": "Taiway",
+    "fonetica_ipa": "taiˈwai",
+    "fonetica_intuitiva": "tai-WAI",
+    "clase_gramatical": "saludo",
+    "traduccion_es": "buen día; el sol que abre",
+    "modulo_didactico": "sendero-1",
+    "asset_visual": "taiway",
+    "simbolo_rupestre": "sol",
+    "fuente_tipo": "neotaino",
+    "fuente_nota": "Saludo temporal del revival (Taiway / Taigi, «buen sol»); no está atestiguado como fórmula colonial.",
+    "significado_cultural": "Recibir el día es acordar caminarlo con cuidado, no poseerlo.",
+    "pilula_sabiduria": "Taiway invita a empezar el día como quien entra a un batey: despacio, con el cuerpo presente y sin prisa de extraer.",
+    "opciones": [
+      {
+        "texto": "buen día; el sol que abre",
+        "asset": "taiway",
+        "correcta": true
+      },
+      {
+        "texto": "hola; te veo y te honro",
+        "asset": "tau",
+        "correcta": false
+      },
+      {
+        "texto": "ceremonia de canto y danza",
+        "asset": "areito",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "manati",
+    "palabra_taino": "Manatí",
+    "fonetica_ipa": "manaˈti",
+    "fonetica_intuitiva": "ma-na-TÍ",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "manatí; hermana del agua",
+    "modulo_didactico": "sendero-2",
+    "asset_visual": "manati",
+    "simbolo_rupestre": "onda",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Indigenismo vivo de origen arahuaco; registrado en crónicas e historia natural de las Antillas.",
+    "significado_cultural": "El manatí enseña lentitud y pertenencia al agua clara; no es presa, es pariente.",
+    "pilula_sabiduria": "Quien nombra al manatí con respeto recuerda que el río no es despensa: es casa de una hermana que aún respira en Kiskeya.",
+    "opciones": [
+      {
+        "texto": "manatí; hermana del agua",
+        "asset": "manati",
+        "correcta": true
+      },
+      {
+        "texto": "carey; viajera del mar",
+        "asset": "carey",
+        "correcta": false
+      },
+      {
+        "texto": "canoa; vientre que cruza",
+        "asset": "canoa",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "carey",
+    "palabra_taino": "Carey",
+    "fonetica_ipa": "kaˈɾei",
+    "fonetica_intuitiva": "ka-REI",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "carey; viajera del mar",
+    "modulo_didactico": "sendero-2",
+    "asset_visual": "carey",
+    "simbolo_rupestre": "caparazon",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Indigenismo antillano; el carey (Eretmochelys) es parte del paisaje marino nombrado en las islas.",
+    "significado_cultural": "La tortuga une playa y alta mar; su caparazón no es adorno, es cuerpo sagrado de una viajera.",
+    "pilula_sabiduria": "El carey regresa a la misma arena. Cuidar una playa es guardar la memoria de quien vuelve a nacer en ella.",
+    "opciones": [
+      {
+        "texto": "carey; viajera del mar",
+        "asset": "carey",
+        "correcta": true
+      },
+      {
+        "texto": "manatí; hermana del agua",
+        "asset": "manati",
+        "correcta": false
+      },
+      {
+        "texto": "iguana; guardiana de las ramas",
+        "asset": "iguana",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "guani",
+    "palabra_taino": "Guaní",
+    "fonetica_ipa": "gwaˈni",
+    "fonetica_intuitiva": "gua-NÍ",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "colibrí; mensajero del néctar",
+    "modulo_didactico": "sendero-2",
+    "asset_visual": "guani",
+    "simbolo_rupestre": "ave",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Guaní aparece en fuentes antillanas como colibrí y, en algunos contextos, como metal o adorno; aquí se enseña el ave.",
+    "significado_cultural": "El guaní detiene el tiempo frente a la flor: atención absoluta, sin arrancar la planta.",
+    "pilula_sabiduria": "El colibrí toma néctar y deja la flor en pie. Aprender guaní es aprender a acercarse sin vaciar lo que se ama.",
+    "opciones": [
+      {
+        "texto": "colibrí; mensajero del néctar",
+        "asset": "guani",
+        "correcta": true
+      },
+      {
+        "texto": "cigua; pájaro de la palma",
+        "asset": "cigua",
+        "correcta": false
+      },
+      {
+        "texto": "rosa que se abre al sol",
+        "asset": "rosa",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "cigua",
+    "palabra_taino": "Cigua",
+    "fonetica_ipa": "ˈsiɣwa",
+    "fonetica_intuitiva": "CI-gua",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "cigua; pájaro de la palma",
+    "modulo_didactico": "sendero-2",
+    "asset_visual": "cigua",
+    "simbolo_rupestre": "ave",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Indigenismo vivo en el español dominicano; la cigua palmera es ave nacional y compañera de la palma real.",
+    "significado_cultural": "La cigua no se entiende sin la palma: enseña que el canto necesita un hogar vegetal.",
+    "pilula_sabiduria": "Si desaparece la palma, enmudece la cigua. Nombrar al ave es comprometerse con el árbol que la meces.",
+    "opciones": [
+      {
+        "texto": "cigua; pájaro de la palma",
+        "asset": "cigua",
+        "correcta": true
+      },
+      {
+        "texto": "colibrí; mensajero del néctar",
+        "asset": "guani",
+        "correcta": false
+      },
+      {
+        "texto": "jutía; roedora de monte",
+        "asset": "jutia",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "jutia",
+    "palabra_taino": "Jutía",
+    "fonetica_ipa": "huˈtia",
+    "fonetica_intuitiva": "ju-TÍ-a",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "jutía; roedora de monte",
+    "modulo_didactico": "sendero-2",
+    "asset_visual": "jutia",
+    "simbolo_rupestre": "cuatro-puntos",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Voz arahuaca conservada en las Antillas; las jutías son mamíferos nativos del bosque insular.",
+    "significado_cultural": "La jutía pertenece al monte nocturno; su rareza hoy pide silencio y habitat, no cacería de recuerdo.",
+    "pilula_sabiduria": "Donde aún corre una jutía, el bosque no ha sido del todo deshecho. Guardar el monte es dejarle corredor y noche.",
+    "opciones": [
+      {
+        "texto": "jutía; roedora de monte",
+        "asset": "jutia",
+        "correcta": true
+      },
+      {
+        "texto": "iguana; guardiana de las ramas",
+        "asset": "iguana",
+        "correcta": false
+      },
+      {
+        "texto": "manatí; hermana del agua",
+        "asset": "manati",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "iguana",
+    "palabra_taino": "Iguana",
+    "fonetica_ipa": "iˈɣwana",
+    "fonetica_intuitiva": "i-GUA-na",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "iguana; guardiana de las ramas",
+    "modulo_didactico": "sendero-2",
+    "asset_visual": "iguana",
+    "simbolo_rupestre": "onda",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Préstamo arahuaco universalizado; Oviedo y otros cronistas describen la iguana antillana.",
+    "significado_cultural": "Quieta bajo el sol, la iguana enseña presencia: ocupar el calor sin violentar la rama.",
+    "pilula_sabiduria": "La iguana no persigue la isla: la habita. Hay una sabiduría en quedarse, observar y no precipitarse.",
+    "opciones": [
+      {
+        "texto": "iguana; guardiana de las ramas",
+        "asset": "iguana",
+        "correcta": true
+      },
+      {
+        "texto": "carey; viajera del mar",
+        "asset": "carey",
+        "correcta": false
+      },
+      {
+        "texto": "ceiba; árbol que une cielo y raíz",
+        "asset": "ceiba",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "ceiba",
+    "palabra_taino": "Ceiba",
+    "fonetica_ipa": "ˈseiba",
+    "fonetica_intuitiva": "CEI-ba",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "ceiba; árbol que une cielo y raíz",
+    "modulo_didactico": "sendero-3",
+    "asset_visual": "ceiba",
+    "simbolo_rupestre": "arbol",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Árbol sagrado antillano; las crónicas y la tradición oral la asocian al eje entre mundos.",
+    "significado_cultural": "La ceiba es columna del cosmos: copa, tronco y raíz como un solo aliento.",
+    "pilula_sabiduria": "Para el taíno, la ceiba une el cielo con la raíz profunda; cuando proteges un árbol, cuidas tu propio aliento.",
+    "opciones": [
+      {
+        "texto": "ceiba; árbol que une cielo y raíz",
+        "asset": "ceiba",
+        "correcta": true
+      },
+      {
+        "texto": "caoba; madera de sombra roja",
+        "asset": "caoba",
+        "correcta": false
+      },
+      {
+        "texto": "mangle; raíz que entra al agua",
+        "asset": "mangle",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "yuca",
+    "palabra_taino": "Yuca",
+    "fonetica_ipa": "ˈjuka",
+    "fonetica_intuitiva": "YU-ca",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "yuca; raíz que alimenta",
+    "modulo_didactico": "sendero-3",
+    "asset_visual": "yuca",
+    "simbolo_rupestre": "raiz",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Cultivo central taíno; base del casabe. Amplio registro en crónicas y en lenguas arahuacas vivas.",
+    "significado_cultural": "La yuca pide paciencia y saber: rallar, prensar, asar. El alimento es técnica de respeto.",
+    "pilula_sabiduria": "Nadie come casabe sin una cadena de manos y de tierra. Honrar la yuca es honrar el conuco y a quien lo trabaja.",
+    "opciones": [
+      {
+        "texto": "yuca; raíz que alimenta",
+        "asset": "yuca",
+        "correcta": true
+      },
+      {
+        "texto": "casabe; pan del conuco",
+        "asset": "casabe",
+        "correcta": false
+      },
+      {
+        "texto": "guazábara; cactus de orilla",
+        "asset": "guazabara",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "caoba",
+    "palabra_taino": "Caoba",
+    "fonetica_ipa": "kaˈoba",
+    "fonetica_intuitiva": "ca-O-ba",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "caoba; madera de sombra roja",
+    "modulo_didactico": "sendero-3",
+    "asset_visual": "caoba",
+    "simbolo_rupestre": "arbol",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Indigenismo de las Antillas; la caoba fue luego sobreexplotada. Aquí se enseña como ser vivo, no como mercancía.",
+    "significado_cultural": "Su belleza tentó la tala. Nombrarla hoy es devolverle dignidad de árbol, no de tablón.",
+    "pilula_sabiduria": "La caoba crece despacio. Quien solo ve mueble no ve el siglo que tardó en hacerse sombra.",
+    "opciones": [
+      {
+        "texto": "caoba; madera de sombra roja",
+        "asset": "caoba",
+        "correcta": true
+      },
+      {
+        "texto": "guayacán; palo santo de costa",
+        "asset": "guayacan",
+        "correcta": false
+      },
+      {
+        "texto": "ceiba; árbol que une cielo y raíz",
+        "asset": "ceiba",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "guayacan",
+    "palabra_taino": "Guayacán",
+    "fonetica_ipa": "ɡwajaˈkan",
+    "fonetica_intuitiva": "gua-ya-CÁN",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "guayacán; palo santo de costa",
+    "modulo_didactico": "sendero-3",
+    "asset_visual": "guayacan",
+    "simbolo_rupestre": "arbol",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Árbol antillano de madera durísima; voz de origen arahuaco conservada en el español caribeño.",
+    "significado_cultural": "El guayacán resiste sequía y salitre: enseña temple sin espectáculo.",
+    "pilula_sabiduria": "Hay fuerzas que no gritan. El guayacán permanece en suelo pobre y aún así da flor: eso también es boití.",
+    "opciones": [
+      {
+        "texto": "guayacán; palo santo de costa",
+        "asset": "guayacan",
+        "correcta": true
+      },
+      {
+        "texto": "mangle; raíz que entra al agua",
+        "asset": "mangle",
+        "correcta": false
+      },
+      {
+        "texto": "caoba; madera de sombra roja",
+        "asset": "caoba",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "mangle",
+    "palabra_taino": "Mangle",
+    "fonetica_ipa": "ˈmaŋɡle",
+    "fonetica_intuitiva": "MAN-gle",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "mangle; raíz que entra al agua",
+    "modulo_didactico": "sendero-3",
+    "asset_visual": "mangle",
+    "simbolo_rupestre": "raiz",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Voz caribeña de probable origen arahuaco o arawak continental; el manglar es vivero y escudo de la costa.",
+    "significado_cultural": "El mangle parte la frontera entre tierra y mar: cría peces, frena huracán, sujeta la orilla.",
+    "pilula_sabiduria": "Arrancar mangle es desarmar la costa. Quien lo protege guarda cuna de peces y techo contra el viento.",
+    "opciones": [
+      {
+        "texto": "mangle; raíz que entra al agua",
+        "asset": "mangle",
+        "correcta": true
+      },
+      {
+        "texto": "yuca; raíz que alimenta",
+        "asset": "yuca",
+        "correcta": false
+      },
+      {
+        "texto": "canoa; vientre que cruza",
+        "asset": "canoa",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "guazabara",
+    "palabra_taino": "Guazábara",
+    "fonetica_ipa": "ɡwasaˈβaɾa",
+    "fonetica_intuitiva": "gua-zá-BA-ra",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "guazábara; cactus de orilla",
+    "modulo_didactico": "sendero-3",
+    "asset_visual": "guazabara",
+    "simbolo_rupestre": "espina",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Nombre antillano de cactácea costera; también evoca, en algunos usos, la vegetación que defiende el litoral.",
+    "significado_cultural": "La espina no es hostilidad: es el modo que tiene la sequía de proteger el agua interior.",
+    "pilula_sabiduria": "Guazábara enseña un cuidado con límite. No todo se toca; algunas fronteras guardan la vida del pedregal.",
+    "opciones": [
+      {
+        "texto": "guazábara; cactus de orilla",
+        "asset": "guazabara",
+        "correcta": true
+      },
+      {
+        "texto": "yuca; raíz que alimenta",
+        "asset": "yuca",
+        "correcta": false
+      },
+      {
+        "texto": "rosa que se abre al sol",
+        "asset": "rosa",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "behique",
+    "palabra_taino": "Behique",
+    "fonetica_ipa": "beˈike",
+    "fonetica_intuitiva": "be-HI-que",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "behique; mediador espiritual",
+    "modulo_didactico": "sendero-4",
+    "asset_visual": "behique",
+    "simbolo_rupestre": "cara",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Fray Ramón Pané y Las Casas describen al behique (bohíti) como especialista ritual y sanador.",
+    "significado_cultural": "No es un héroe de fuerza bruta: es quien escucha cemíes, sueños y el cuerpo enfermo de la aldea.",
+    "pilula_sabiduria": "La autoridad del behique nace de servir al equilibrio. Quien solo busca poder rompe el círculo que dice cuidar.",
+    "opciones": [
+      {
+        "texto": "behique; mediador espiritual",
+        "asset": "behique",
+        "correcta": true
+      },
+      {
+        "texto": "cemí; presencia sagrada",
+        "asset": "cemi",
+        "correcta": false
+      },
+      {
+        "texto": "espíritu de quien partió",
+        "asset": "opia",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "boiti",
+    "palabra_taino": "Boití",
+    "fonetica_ipa": "boiˈti",
+    "fonetica_intuitiva": "boi-TÍ",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "protectora; guardiana; fuerza espiritual interior (no bélica)",
+    "modulo_didactico": "sendero-4",
+    "asset_visual": "boiti",
+    "simbolo_rupestre": "espiral",
+    "fuente_tipo": "neotaino",
+    "fuente_nota": "En compilaciones de revival, Boití nombra a la guardiana y al resguardo interior. Emparentado con bohíti/behique, no es un cargo colonial distinto documentado.",
+    "significado_cultural": "Boití es la fuerza que no aplasta: sostiene, resguarda y protege sin volverse guerra.",
+    "pilula_sabiduria": "Hay un poder que se mide en cómo cuidas. Boití es la serenidad que permite defender la aldea sin volverse tormenta.",
+    "opciones": [
+      {
+        "texto": "protectora; guardiana; fuerza espiritual interior",
+        "asset": "boiti",
+        "correcta": true
+      },
+      {
+        "texto": "guerrero de campo; combatiente",
+        "asset": "waribo",
+        "correcta": false
+      },
+      {
+        "texto": "behique; mediador espiritual",
+        "asset": "behique",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "waribo",
+    "palabra_taino": "Waribo",
+    "fonetica_ipa": "waˈɾibo",
+    "fonetica_intuitiva": "wa-RI-bo",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "guerrero; combatiente en el campo",
+    "modulo_didactico": "sendero-4",
+    "asset_visual": "waribo",
+    "simbolo_rupestre": "dos-espirales",
+    "fuente_tipo": "neotaino",
+    "fuente_nota": "En el vocabulario de revival, Waribo es el combatiente. No es voz de crónica; la defensa clásica se describe más por macana y nitaíno.",
+    "significado_cultural": "El waribo pone el cuerpo en la báracoa. Esa fuerza pide límite: no convertirse en huracán contra el propio círculo.",
+    "pilula_sabiduria": "Antes de alzar la macana, pregunta si tu fuerza aclara o oscurece. El combate no es el oficio cotidiano del yukayeke.",
+    "opciones": [
+      {
+        "texto": "guerrero; combatiente en el campo",
+        "asset": "waribo",
+        "correcta": true
+      },
+      {
+        "texto": "protectora; guardiana espiritual",
+        "asset": "boiti",
+        "correcta": false
+      },
+      {
+        "texto": "bendición del gran espíritu bueno",
+        "asset": "taino-ti",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "taino-ti",
+    "palabra_taino": "Taino-tí",
+    "fonetica_ipa": "tainoˈti",
+    "fonetica_intuitiva": "tai-no-TÍ",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "bendición: que el gran espíritu bueno esté contigo",
+    "modulo_didactico": "sendero-4",
+    "asset_visual": "taino-ti",
+    "simbolo_rupestre": "circulo",
+    "fuente_tipo": "neotaino",
+    "fuente_nota": "Fórmula de bendición del revival. Taíno se glosa a menudo como «bueno»; el compuesto -tí no es una frase fija de crónica.",
+    "significado_cultural": "Taino-tí ofrece el espíritu bueno al otro: no es un grito de conquista, es un deseo de resguardo.",
+    "pilula_sabiduria": "Bendecir es desear que el círculo no se rompa. El nombre del pueblo (taíno, gente buena) se vuelve un voto hacia quien tienes delante.",
+    "opciones": [
+      {
+        "texto": "bendición: que el gran espíritu bueno esté contigo",
+        "asset": "taino-ti",
+        "correcta": true
+      },
+      {
+        "texto": "Kiskeya; tierra de montañas y madre",
+        "asset": "kiskeya",
+        "correcta": false
+      },
+      {
+        "texto": "hola; te veo y te honro",
+        "asset": "tau",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "opia",
+    "palabra_taino": "Opía",
+    "fonetica_ipa": "oˈpia",
+    "fonetica_intuitiva": "o-PÍ-a",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "espíritu de quien partió",
+    "modulo_didactico": "sendero-4",
+    "asset_visual": "opia",
+    "simbolo_rupestre": "cara",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Pané distingue el espíritu del vivo (goeíza) y el del muerto (opía), que vaga de noche.",
+    "significado_cultural": "La muerte no anula el vínculo: cambia de forma. Se convive con la memoria, no se la usa.",
+    "pilula_sabiduria": "Opía pide respeto a los que fueron. Cuidar un lugar antiguo es no pisotear el sueño de quienes aún habitan de otro modo.",
+    "opciones": [
+      {
+        "texto": "espíritu de quien partió",
+        "asset": "opia",
+        "correcta": true
+      },
+      {
+        "texto": "cemí; presencia sagrada",
+        "asset": "cemi",
+        "correcta": false
+      },
+      {
+        "texto": "protectora; guardiana espiritual",
+        "asset": "boiti",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "batey",
+    "palabra_taino": "Batey",
+    "fonetica_ipa": "baˈtei",
+    "fonetica_intuitiva": "ba-TEI",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "plaza ceremonial; círculo del pueblo",
+    "modulo_didactico": "sendero-5",
+    "asset_visual": "batey",
+    "simbolo_rupestre": "circulo",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Plaza ritual y social; también da nombre al juego de pelota. Voz viva en el Caribe.",
+    "significado_cultural": "El batey es el hueco sagrado donde la aldea se ve a sí misma: juego, areíto, palabra.",
+    "pilula_sabiduria": "Un pueblo sin centro se dispersa. El batey enseña que el espacio común —no el cercado privado— sostiene la pertenencia.",
+    "opciones": [
+      {
+        "texto": "plaza ceremonial; círculo del pueblo",
+        "asset": "batey",
+        "correcta": true
+      },
+      {
+        "texto": "juego de pelota sagrado",
+        "asset": "batu",
+        "correcta": false
+      },
+      {
+        "texto": "ceremonia de canto y danza",
+        "asset": "areito",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "batu",
+    "palabra_taino": "Batú",
+    "fonetica_ipa": "baˈtu",
+    "fonetica_intuitiva": "ba-TÚ",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "juego de pelota sagrado",
+    "modulo_didactico": "sendero-5",
+    "asset_visual": "batu",
+    "simbolo_rupestre": "circulo",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Juego antiliano de pelota en el batey; paralelo a tradiciones continentales, descrito por cronistas.",
+    "significado_cultural": "El juego no es ocio vacío: ordena cuerpos, alianzas y el pulso de la comunidad.",
+    "pilula_sabiduria": "Batú enseña que hay rivalidad que no destruye. Se juega para afirmar el círculo, no para aniquilar a la otra orilla.",
+    "opciones": [
+      {
+        "texto": "juego de pelota sagrado",
+        "asset": "batu",
+        "correcta": true
+      },
+      {
+        "texto": "plaza ceremonial; círculo del pueblo",
+        "asset": "batey",
+        "correcta": false
+      },
+      {
+        "texto": "hamaca; tejido que meces",
+        "asset": "hamaca",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "cemi",
+    "palabra_taino": "Cemí",
+    "fonetica_ipa": "seˈmi",
+    "fonetica_intuitiva": "ce-MÍ",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "cemí; presencia sagrada",
+    "modulo_didactico": "sendero-5",
+    "asset_visual": "cemi",
+    "simbolo_rupestre": "cara",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Pané: seres de poder representados en piedra, madera o algodón; mediadores del mundo invisible.",
+    "significado_cultural": "El cemí no es ídolo vacío: es presencia que exige conducta, ofrenda y mesura.",
+    "pilula_sabiduria": "Acercarse a un cemí es aceptar que hay fuerzas que no se poseen. Se convive con ellas; no se las colecciona.",
+    "opciones": [
+      {
+        "texto": "cemí; presencia sagrada",
+        "asset": "cemi",
+        "correcta": true
+      },
+      {
+        "texto": "polvo ritual de visión",
+        "asset": "cohoba",
+        "correcta": false
+      },
+      {
+        "texto": "behique; mediador espiritual",
+        "asset": "behique",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "cohoba",
+    "palabra_taino": "Cohoba",
+    "fonetica_ipa": "koˈhoba",
+    "fonetica_intuitiva": "co-HO-ba",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "cohoba; polvo ritual de visión",
+    "modulo_didactico": "sendero-5",
+    "asset_visual": "cohoba",
+    "simbolo_rupestre": "espiral",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Rito descrito por Pané: inhalación ceremonial para comunicar con cemíes, reservada al contexto sagrado. Aquí se nombra el umbral; no se enseña a prepararlo ni a practicarlo.",
+    "significado_cultural": "La visión no es consumo ni receta. Cohoba pide comunidad, preparación y límite.",
+    "pilula_sabiduria": "Nombrar la cohoba es acordar un límite: se honra el umbral; no se enseña a cruzarlo.",
+    "opciones": [
+      {
+        "texto": "cohoba; polvo ritual de visión",
+        "asset": "cohoba",
+        "correcta": true
+      },
+      {
+        "texto": "cemí; presencia sagrada",
+        "asset": "cemi",
+        "correcta": false
+      },
+      {
+        "texto": "casabe; pan del conuco",
+        "asset": "casabe",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "areito",
+    "palabra_taino": "Areíto",
+    "fonetica_ipa": "aˈɾeito",
+    "fonetica_intuitiva": "a-REÍ-to",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "areíto; canto-danza de memoria (único género nombrado)",
+    "modulo_didactico": "sendero-5",
+    "asset_visual": "areito",
+    "simbolo_rupestre": "onda",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Las Casas, Oviedo y otros: fiesta-rito de memoria, alianza y duelo, con canto en rueda. Es el único género de danza que las crónicas nombran. Lo guía la tequina; suena el mayohuacán y el guamo. Otros «bailes» de hoy (karayán lunar) son tradición viva sobre este mismo género, no títulos coloniales aparte.",
+    "significado_cultural": "El areíto es archivo vivo: la historia se danza para no olvidar. No es show ni folklore de vitrina.",
+    "pilula_sabiduria": "Un areíto no se mira desde afuera como show. Se entra al ritmo para recordar que el cuerpo también es lengua.",
+    "opciones": [
+      {
+        "texto": "areíto; canto-danza de memoria",
+        "asset": "areito",
+        "correcta": true
+      },
+      {
+        "texto": "juego de pelota sagrado",
+        "asset": "batu",
+        "correcta": false
+      },
+      {
+        "texto": "buen día; el sol que abre",
+        "asset": "taiway",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "hamaca",
+    "palabra_taino": "Hamaca",
+    "fonetica_ipa": "aˈmaka",
+    "fonetica_intuitiva": "ha-MA-ca",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "hamaca; tejido que meces",
+    "modulo_didactico": "sendero-5",
+    "asset_visual": "hamaca",
+    "simbolo_rupestre": "onda",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Uno de los indigenismos más difundidos; Oviedo describe el tejido suspendido del bohío.",
+    "significado_cultural": "Descansar también es cultura: el cuerpo se entrega al aire entre dos puntos firmes.",
+    "pilula_sabiduria": "La hamaca enseña que el reposo no es pereza. Quien no se detiene termina por romper el hilo que lo sostiene.",
+    "opciones": [
+      {
+        "texto": "hamaca; tejido que meces",
+        "asset": "hamaca",
+        "correcta": true
+      },
+      {
+        "texto": "canoa; vientre que cruza",
+        "asset": "canoa",
+        "correcta": false
+      },
+      {
+        "texto": "casabe; pan del conuco",
+        "asset": "casabe",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "canoa",
+    "palabra_taino": "Canoa",
+    "fonetica_ipa": "kaˈnoa",
+    "fonetica_intuitiva": "ca-NO-a",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "canoa; vientre que cruza",
+    "modulo_didactico": "sendero-5",
+    "asset_visual": "canoa",
+    "simbolo_rupestre": "onda",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Préstamo taíno universal; Colón y cronistas registran las embarcaciones de un solo tronco.",
+    "significado_cultural": "Cruzar agua pide equilibrio: la canoa es pacto con la corriente, no dominio de ella.",
+    "pilula_sabiduria": "Nadie rema solo el destino de la isla. La canoa cabe más de uno: esa es la política antigua del agua.",
+    "opciones": [
+      {
+        "texto": "canoa; vientre que cruza",
+        "asset": "canoa",
+        "correcta": true
+      },
+      {
+        "texto": "hamaca; tejido que meces",
+        "asset": "hamaca",
+        "correcta": false
+      },
+      {
+        "texto": "manatí; hermana del agua",
+        "asset": "manati",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "casabe",
+    "palabra_taino": "Casabe",
+    "fonetica_ipa": "kaˈsabe",
+    "fonetica_intuitiva": "ca-SA-be",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "casabe; pan del conuco",
+    "modulo_didactico": "sendero-5",
+    "asset_visual": "casabe",
+    "simbolo_rupestre": "circulo",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Pan de yuca aún vivo en el Caribe; técnica taína descrita por cronistas y filólogos.",
+    "significado_cultural": "El casabe es comunión cotidiana: fuego, burén y manos que convierten raíz en rueda compartible.",
+    "pilula_sabiduria": "Partir casabe es partir tiempo. El alimento que viaja siglos pide que no se desperdicie ni se olvide su origen.",
+    "opciones": [
+      {
+        "texto": "casabe; pan del conuco",
+        "asset": "casabe",
+        "correcta": true
+      },
+      {
+        "texto": "yuca; raíz que alimenta",
+        "asset": "yuca",
+        "correcta": false
+      },
+      {
+        "texto": "cohoba; polvo ritual de visión",
+        "asset": "cohoba",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "kiskeya",
+    "palabra_taino": "Kiskeya",
+    "fonetica_ipa": "kisˈkeja",
+    "fonetica_intuitiva": "kis-KE-ya",
+    "clase_gramatical": "sustantivo",
+    "traduccion_es": "Kiskeya; tierra de montañas y madre",
+    "modulo_didactico": "sendero-5",
+    "asset_visual": "kiskeya",
+    "simbolo_rupestre": "espiral",
+    "fuente_tipo": "atestiguado",
+    "fuente_nota": "Quisqueya/Kiskeya, nombre indígena de la isla; glosas tradicionales: «tierra de montañas» o «madre de las tierras».",
+    "significado_cultural": "Nombrar Kiskeya es afirmar pertenencia: la isla no es escenario, es linaje y casa.",
+    "pilula_sabiduria": "Cuidar Kiskeya es cuidar el propio nombre. Cada quebrada, ceiba y cigua guarda un pedazo de quien somos.",
+    "opciones": [
+      {
+        "texto": "Kiskeya; tierra de montañas y madre",
+        "asset": "kiskeya",
+        "correcta": true
+      },
+      {
+        "texto": "plaza ceremonial; círculo del pueblo",
+        "asset": "batey",
+        "correcta": false
+      },
+      {
+        "texto": "bendición: que el gran espíritu bueno esté contigo",
+        "asset": "taino-ti",
+        "correcta": false
+      }
+    ]
+  }
+]

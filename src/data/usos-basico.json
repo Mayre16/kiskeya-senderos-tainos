@@ -1,0 +1,425 @@
+{
+  "takaji": {
+    "pista": "Escribe el saludo de la tarde",
+    "modelo": "Takaji.",
+    "es": "Buenas tardes.",
+    "tokens": [
+      "Takaji"
+    ],
+    "distractores": [
+      "Taiway",
+      "Takarayá"
+    ]
+  },
+  "takaraya": {
+    "pista": "Escribe el saludo de la noche / buena luna",
+    "modelo": "Takarayá.",
+    "es": "Buenas noches. Buena luna.",
+    "tokens": [
+      "Takarayá"
+    ],
+    "distractores": [
+      "Takaji",
+      "Taiway"
+    ]
+  },
+  "tai-guaio": {
+    "pista": "Escribe «buen amigo / buena amiga»",
+    "modelo": "Tai guaío.",
+    "es": "Buen amigo. Buena amiga.",
+    "tokens": [
+      "Tai",
+      "guaío"
+    ],
+    "distractores": [
+      "Jajóm",
+      "Guáka"
+    ]
+  },
+  "aria": {
+    "pista": "Escribe la palabra de ofrecer: toma, aquí tienes",
+    "modelo": "Aria.",
+    "es": "Toma. Aquí tienes.",
+    "tokens": [
+      "Aria"
+    ],
+    "distractores": [
+      "Jajóm",
+      "Malahi"
+    ]
+  },
+  "malahi": {
+    "pista": "Escribe «por favor dame»",
+    "modelo": "Malahi busica.",
+    "es": "Por favor dame.",
+    "tokens": [
+      "Malahi",
+      "busica"
+    ],
+    "distractores": [
+      "Aria",
+      "Jajóm"
+    ]
+  },
+  "da": {
+    "pista": "Escribe «mi comida»",
+    "modelo": "Da imake.",
+    "es": "Mi comida.",
+    "tokens": [
+      "Da",
+      "imake"
+    ],
+    "distractores": [
+      "Daka",
+      "Guáka"
+    ]
+  },
+  "li": {
+    "pista": "Escribe «él»",
+    "modelo": "Li cacique.",
+    "es": "Él es cacique.",
+    "tokens": [
+      "Li",
+      "cacique"
+    ],
+    "distractores": [
+      "Turi",
+      "Daka"
+    ]
+  },
+  "guaka": {
+    "pista": "Escribe «lo nuestro» con el resguardo del círculo",
+    "modelo": "Guáka boití.",
+    "es": "Lo nuestro es boití. Nuestra fuerza de resguardo.",
+    "tokens": [
+      "Guáka",
+      "boití"
+    ],
+    "distractores": [
+      "Daka",
+      "Waribo"
+    ]
+  },
+  "nono": {
+    "pista": "Escribe el no rotundo",
+    "modelo": "Nono.",
+    "es": "No.",
+    "tokens": [
+      "Nono"
+    ],
+    "distractores": [
+      "Ita",
+      "Ma"
+    ]
+  },
+  "ma": {
+    "pista": "Escribe «no tengo hambre»",
+    "modelo": "Ma daka ajani.",
+    "es": "No tengo hambre.",
+    "tokens": [
+      "Ma",
+      "daka",
+      "ajani"
+    ],
+    "distractores": [
+      "Nono",
+      "Ita"
+    ]
+  },
+  "ita": {
+    "pista": "Escribe «no sé»",
+    "modelo": "Ita.",
+    "es": "No sé.",
+    "tokens": [
+      "Ita"
+    ],
+    "distractores": [
+      "Nono",
+      "Akié"
+    ]
+  },
+  "nitaino": {
+    "pista": "Escribe el nombre de la nobleza consejera",
+    "modelo": "Nitaíno turi.",
+    "es": "Tú eres nitaíno: consejero del cacique.",
+    "tokens": [
+      "Nitaíno",
+      "turi"
+    ],
+    "distractores": [
+      "Cacique",
+      "Naboria"
+    ]
+  },
+  "baracoa": {
+    "pista": "Escribe la palabra de la guerra",
+    "modelo": "Nono báracoa.",
+    "es": "No a la guerra. La báracoa no es el oficio cotidiano.",
+    "tokens": [
+      "Nono",
+      "báracoa"
+    ],
+    "distractores": [
+      "Barbacoa",
+      "Waribo"
+    ]
+  },
+  "cayo": {
+    "pista": "Escribe el nombre del islote",
+    "modelo": "Tau, cayo.",
+    "es": "Hola, islote. Tierra mínima de arena y coral.",
+    "tokens": [
+      "Tau",
+      "cayo"
+    ],
+    "distractores": [
+      "Sabana",
+      "Mangle"
+    ]
+  },
+  "sabana": {
+    "pista": "Escribe el nombre de la llanura abierta",
+    "modelo": "Daka sabana.",
+    "es": "Estoy en la sabana.",
+    "tokens": [
+      "Daka",
+      "sabana"
+    ],
+    "distractores": [
+      "Cayo",
+      "Conuco"
+    ]
+  },
+  "barbacoa": {
+    "pista": "Escribe el nombre de la parrilla elevada",
+    "modelo": "Daka barbacoa.",
+    "es": "Asamos en la barbacoa.",
+    "tokens": [
+      "Daka",
+      "barbacoa"
+    ],
+    "distractores": [
+      "Báracoa",
+      "Casabe"
+    ]
+  },
+  "akie": {
+    "pista": "Escribe «aprender / escuchar»",
+    "modelo": "Daka akié.",
+    "es": "Yo aprendo. Escucho con atención.",
+    "tokens": [
+      "Daka",
+      "akié"
+    ],
+    "distractores": [
+      "Achéka",
+      "Ita"
+    ]
+  },
+  "acheka": {
+    "pista": "Escribe «hablar / pronunciar»",
+    "modelo": "Daka achéka.",
+    "es": "Yo hablo. Pronuncio.",
+    "tokens": [
+      "Daka",
+      "achéka"
+    ],
+    "distractores": [
+      "Akié",
+      "Tau"
+    ]
+  },
+  "teitoca": {
+    "pista": "Escribe «quedarse quieto / estar en calma»",
+    "modelo": "Daka tei-toca.",
+    "es": "Me quedo quieto. Estoy en calma.",
+    "tokens": [
+      "Daka",
+      "tei-toca"
+    ],
+    "distractores": [
+      "Dòmí",
+      "Irá"
+    ]
+  },
+  "areya": {
+    "pista": "Escribe «despertar»",
+    "modelo": "Daka areyá.",
+    "es": "Despierto. Estoy alerta.",
+    "tokens": [
+      "Daka",
+      "areyá"
+    ],
+    "distractores": [
+      "Areíto",
+      "Dòmí"
+    ]
+  },
+  "ira": {
+    "pista": "Escribe «levantarse»",
+    "modelo": "Daka irá.",
+    "es": "Me levanto. Me pongo de pie.",
+    "tokens": [
+      "Daka",
+      "irá"
+    ],
+    "distractores": [
+      "Areyá",
+      "Tei-toca"
+    ]
+  },
+  "charly": {
+    "pista": "Escribe «estar contento»",
+    "modelo": "Daka charly.",
+    "es": "Estoy contento. Siento alegría.",
+    "tokens": [
+      "Daka",
+      "charly"
+    ],
+    "distractores": [
+      "Banyá",
+      "Bajú"
+    ]
+  },
+  "banya": {
+    "pista": "Escribe «amor / afecto profundo»",
+    "modelo": "Daka banyá.",
+    "es": "Hay amor. Afecto profundo.",
+    "tokens": [
+      "Daka",
+      "banyá"
+    ],
+    "distractores": [
+      "Charly",
+      "Aito"
+    ]
+  },
+  "ajani": {
+    "pista": "Escribe «hambre» o «tengo hambre»",
+    "modelo": "Daka ajani.",
+    "es": "Tengo hambre.",
+    "tokens": [
+      "Daka",
+      "ajani"
+    ],
+    "distractores": [
+      "Amina",
+      "Imake"
+    ]
+  },
+  "amina": {
+    "pista": "Escribe «sed» o «tengo sed»",
+    "modelo": "Daka amina.",
+    "es": "Tengo sed.",
+    "tokens": [
+      "Daka",
+      "amina"
+    ],
+    "distractores": [
+      "Ajani",
+      "Bagua"
+    ]
+  },
+  "baju": {
+    "pista": "Escribe «dolor»",
+    "modelo": "Daka bajú.",
+    "es": "Me duele. Hay dolor.",
+    "tokens": [
+      "Daka",
+      "bajú"
+    ],
+    "distractores": [
+      "Ajani",
+      "Charly"
+    ]
+  },
+  "imake": {
+    "pista": "Escribe «comida» o «mi comida»",
+    "modelo": "Da imake.",
+    "es": "Mi comida. El alimento.",
+    "tokens": [
+      "Da",
+      "imake"
+    ],
+    "distractores": [
+      "Ajani",
+      "Casabe"
+    ]
+  },
+  "mani": {
+    "pista": "Escribe el nombre de la semilla del conuco",
+    "modelo": "Da maní.",
+    "es": "Mi maní.",
+    "tokens": [
+      "Da",
+      "maní"
+    ],
+    "distractores": [
+      "Maíz",
+      "Guayaba"
+    ]
+  },
+  "guayaba": {
+    "pista": "Escribe el nombre de la fruta dulce",
+    "modelo": "Da guayaba.",
+    "es": "Mi guayaba.",
+    "tokens": [
+      "Da",
+      "guayaba"
+    ],
+    "distractores": [
+      "Maní",
+      "Ají"
+    ]
+  },
+  "kameka": {
+    "pista": "Escribe «pescado»",
+    "modelo": "Da kameka.",
+    "es": "Mi pescado.",
+    "tokens": [
+      "Da",
+      "kameka"
+    ],
+    "distractores": [
+      "Asúku",
+      "Carey"
+    ]
+  },
+  "asuku": {
+    "pista": "Escribe «huevo»",
+    "modelo": "Da asúku.",
+    "es": "Mi huevo.",
+    "tokens": [
+      "Da",
+      "asúku"
+    ],
+    "distractores": [
+      "Kameka",
+      "Imake"
+    ]
+  },
+  "taiguey": {
+    "pista": "Escribe el saludo del sol (de día)",
+    "modelo": "TaiGuey.",
+    "es": "Buen sol. Buenos días.",
+    "tokens": [
+      "TaiGuey"
+    ],
+    "distractores": [
+      "TaiKarayá",
+      "Takaji"
+    ]
+  },
+  "taikaraye": {
+    "pista": "Escribe el saludo de la luna (de noche)",
+    "modelo": "TaiKarayá.",
+    "es": "Buena luna. Buenas noches.",
+    "tokens": [
+      "TaiKarayá"
+    ],
+    "distractores": [
+      "TaiGuey",
+      "Takaji"
+    ]
+  }
+}
